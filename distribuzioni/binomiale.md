@@ -14,6 +14,3 @@ per una binomiale di parametri $n$ e $p$ con $k = 1, \ldots, n$ risultati favore
 Ha media $E(X) = np$ e varianza $Var(X) = np(1-p)$.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Binomial_distribution_pmf.svg" alt="grafico della distribuzione" width=700>
-
-
-

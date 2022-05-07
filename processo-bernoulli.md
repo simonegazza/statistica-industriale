@@ -1,0 +1,9 @@
+---
+title: "Processo di Bernoulli"
+---
+
+Il processo di Bernoulli è una successione di variabili aleatorie i.i.d (indipendenti identicamente distribuite) della forma $Y_1, Y_2, \ldots Y_n \sim \mathrm{bin}(1,p)$ dette _prove di Bernoulli_.
+
+Si dimostra che $Y_1 + Y_2 + \ldots + Y_n = S_n$ [[binomiale]] di parametri $n$ e $p$ (ovvero $S_n \sim \mathrm{bin}(n,p)$).
+
+Si dimostra anche che se nominiamo $X$ la variabile aleatoria di che conta il numero di successi fino al k-esimo successo, allora $X$ è [[geometrica]], ovvero $X \sim \mathrm{geom}(p)$ (con $p$ come sopra).
