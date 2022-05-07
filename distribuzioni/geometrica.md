@@ -8,7 +8,7 @@ Si indica con $X \sim \mathrm{geom}(p)$ in cui $p \in (0,1]$ (se $p = 0$ allora 
 La funzione di densità di probabilità è:
 $$P(X = k) = p (1-p)^{k-1}$$
 
-Si trova tutte le volte che si c'è un [[processo-bernoulli|processo di Bernoulli]] alla base, in questo caso si conta il numero di tentativi prima che il k-esimo successo avvenga.
+Si trova tutte le volte che si c'è un [[processo-bernoulli|processo di Bernoulli]] alla base, in questo caso si conta il numero di tentativi prima che il primo successo avvenga.
 
 È la versione discreta dell'[[esponenziale]].
 
