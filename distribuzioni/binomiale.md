@@ -11,8 +11,9 @@ per una binomiale di parametri $n$ e $p$ con $k = 1, \ldots, n$ risultati favore
 
 È [[riproducibile]]: ovvero se $X_1, X_2, \ldots, X_m$ indipendenti e $X_i \sim \mathrm{bin}(n_i, p)$ allora $X_1 + X_2 + \ldots + X_m \sim \mathrm{bin}(n_1 + n_2 + \ldots + n_m, p)$.
 
-Ha media $E(X) = np$ e $Var(X) = np(1-p)$.
+Ha media $E(X) = np$ e varianza $Var(X) = np(1-p)$.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Binomial_distribution_pmf.svg" alt="grafico della distribuzione" width=700>
+
 
 

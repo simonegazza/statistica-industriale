@@ -14,10 +14,11 @@ $$
     \end{array}
 $$
 
-Si noti che il _processo di Bernoulli_ ci consente di trasformare $n$ ripetizioni della stessa Bernoulliana (avente la stessa probabilità $p$) in una binomiale.
+Si noti che il _processo di Bernoulli_ ci consente di trasformare $n$ ripetizioni della stessa Bernoulliana (avente la stessa probabilità $p$) in una [[binomiale]].
 Più formalmente: il processo di Bernoulli è una successione di variabili aleatorie i.i.d (indipendenti identicamente distribuite) della forma $X_1, X_2, \ldots X_n \sim bin(1,p)$ dette _prove di Bernoulli_. Si dimostra che $X_1 + X_2 + \ldots + X_n = S_n$ [[binomiale]] di parametri $n$ e $p$ (ovvero $S_n \sim bin(n,p)$).
 
-Ha media $E(X) = p$ e $Var(X) = p(1-p)$.
+Ha media $E(X) = p$ e varianza $Var(X) = p(1-p)$.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Bernoulli_Distribution.PNG" alt="grafico della distribuzione" width=700>
+
 
