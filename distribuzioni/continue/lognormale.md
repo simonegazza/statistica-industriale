@@ -7,7 +7,7 @@ Si indica con $X \sim \mathrm{lognormale}(\mu, \sigma^2)$ in cui $\mu \in \mathb
 
 La classe delle gaussiane è chiusa per trasformazioni lineari, che vuol dire che se $X \sim \mathcal{N}(\mu, \sigma^2)$ allora $a + bX \sim \mathcal{N}(a + b\mu, b^2\sigma^2)$.
 
-Si tratta dell'esponenziale della gaussiana ed è *sempre positiva*. Il suo logaritmo è una vairabile normale, in fatti $\log X \sim \mathcal{N}(\mu, \sigma)$.
+Si tratta dell'esponenziale della gaussiana ed è *sempre positiva*. Il suo logaritmo è una variabile normale, infatti $\log X \sim \mathcal{N}(\mu, \sigma)$.
 
 Si noti che cambiare la base del logaritmo è equivalente a fare una trasformazione lineare, infatti $\log_a X \iff \frac{\log_b X}{\log_b a} \sim \mathcal{N}\bigg(\frac{\mu}{\log_b a}, \big(\frac{\sigma}{\log_b a}\big)^2\bigg)$.
 
@@ -20,5 +20,4 @@ Durante l'analisi dei dati, si fa il logaritmo della variabile e poi si tratta c
 Ha media $E(X) = e^{\mu + \frac{\sigma^2}{2}}$.
 La mediana è $e^\mu$.
 
-Si noti che se $\sigma = 0$ allora la gaussiana degenera in una [[delta-dirac|delta di Dirac]].
 <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Lognormal_distribution_PDF.png" alt="grafico della distribuzione" width=700 style="background: white">

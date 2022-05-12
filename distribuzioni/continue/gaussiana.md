@@ -18,7 +18,7 @@ La classe delle gaussiane è chiusa per trasformazioni lineari, che vuol dire ch
 
 Ha media $E(X) = \mu$ e varianza $Var(X) = \sigma^2$.
 
-La [[funzione-ripartizione|CdF]] è $\Phi(t) = P(\mathcal{N}(0, 1) \le t)$ e quindi $\Phi(\frac{t - \mu}{\sigma}) = P(\mathcal{N}(\mu, \sigma^2) \le t)$
+La [[funzione-ripartizione|CdF]] è $\Phi(t) = P(\mathcal{N}(0, 1) \le t)$ e quindi $\Phi(\frac{t - \mu}{\sigma}) = P(\mathcal{N}(\mu, \sigma^2) \le t)$.
 
 Si noti che se $\sigma = 0$ allora la gaussiana degenera in una [[delta-dirac|delta di Dirac]].
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/The_Normal_Distribution.svg/800px-The_Normal_Distribution.svg.png" alt="grafico della distribuzione" width=700 style="background: white">

@@ -3,7 +3,7 @@ title: "Ipergeometrica"
 ---
 L'ipergeometrica è una distribuzione di probabilità discreta.
 
-Si indica con $X \sim \mathrm{hypg}(n, a, m)$ dove $X$ indica il numero di palline **colorate** estratte dall'urna; generalmente simula il processo di estrazione di palline colorate da un'urna, per cui $m$ è il totale di palline, $a$  il numero di palline colorate e $n$ quante ne sono già state estratte **senza rimessa**. Si noti che $m \ge 1$, $0 \le a \le m$ e $1 \le n \le m$. 
+Si indica con $X \sim \mathrm{hypg}(n, a, m)$ dove $X$ indica il numero di palline **colorate** estratte dall'urna; generalmente simula il processo di estrazione di palline colorate da un'urna, per cui $m$ è il totale di palline, $a$  il numero di palline colorate e $n$ quante ne sono già state estratte **senza rimessa**. Si noti che $m \ge 1$, $0 \le a \le m$ e $1 \le n \le m$.
 
 Ha la seguente funzione di densità di probabilità:
 $$
