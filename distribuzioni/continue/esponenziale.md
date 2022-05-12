@@ -1,6 +1,7 @@
 ---
 title: "Esponenziale"
 ---
+# Esponenziale
 L'esponenziale è una distribuzione di probabilità continua.
 
 Si indica con $X \sim \mathrm{expo}(\lambda)$ in cui $\lambda > 0$ è chiamato **rate** o tasso.
