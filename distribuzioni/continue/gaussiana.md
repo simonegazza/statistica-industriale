@@ -1,7 +1,7 @@
 ---
 title: "Gaussiana"
 ---
-La gaussiana è una distribuzione di probabilità continua.
+La gaussiana è una distribuzione di probabilità continua. È chiamata anche normale.
 
 Si indica con $X \sim \mathcal{N}(\mu, \sigma^2)$ in cui $\mu \in \mathbb{R}$ è la media e $\sigma > 0$ la [[momenti-distribuzioni|deviazione standard]].
 
@@ -12,7 +12,7 @@ $$
 
 La classe delle gaussiane è chiusa per trasformazioni lineari, che vuol dire che se $X \sim \mathcal{N}(\mu, \sigma^2)$ allora $a + bX \sim \mathcal{N}(a + b\mu, b^2\sigma^2)$.
 
-È la regina delle distribuzioni, infatti il [[teorema-limite-centrale|teorema del limite centrale]] pone proprio la somma di contributi indipendenti simile ad una gaussiana.
+È la regina delle distribuzioni, infatti il [[teorema-limite-centrale|teorema del limite centrale]] pone proprio la **somma** di contributi indipendenti simile ad una gaussiana. Si noti che se fosse il prodotto di contributi indipendenti, tratteremmo una [[lognormale]].
 
 È [[riproducibile]], ma non solo, non necessita che le variabili siano indipendenti. Infatti la somma di gaussiane genera una gaussiana la cui media è la somma delle medie (mentre la varianza è più complicata).
 
