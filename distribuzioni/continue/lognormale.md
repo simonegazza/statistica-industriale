@@ -1,6 +1,7 @@
 ---
 title: "Lognormale"
 ---
+# Lognormale
 La lognormale è una distribuzione di probabilità continua.
 
 Si indica con $X \sim \mathrm{lognormale}(\mu, \sigma^2)$ in cui $\mu \in \mathbb{R}$ è la media e $\sigma > 0$ la [[momenti-distribuzioni|deviazione standard]].

@@ -1,6 +1,7 @@
 ---
 title: "Uniforme discreta"
 ---
+# Uniforme discreta
 L'uniforme discreta è una distribuzione di probabilità discreta.
 Spesso modella bene dadi o monete.
 

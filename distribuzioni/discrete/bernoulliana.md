@@ -1,6 +1,7 @@
 ---
 title: "Bernoulliana"
 ---
+# Bernoulliana
 La Bernoulliana è una distribuzione di probabilità discreta.
 
 Si indica con $X \sim \mathrm{bin}(1, p)$ in cui il parametro $p \in [0,1]$ indica la probabilità del verificarsi di un singolo evento (una sola volta).

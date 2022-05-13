@@ -1,6 +1,7 @@
 ---
 title: "Gamma"
 ---
+# Gamma
 La gamma è una distribuzione di probabilità continua.
 
 Si indica con $X \sim \mathrm{gamma}(\alpha, \lambda^2)$ o $X \sim \mathrm{gamma}(\alpha, \beta^2)$ in cui $\lambda = \frac{1}{\beta}$ con $\alpha, \lambda$ e $\beta$ maggiori di $0$. La seconda è usata su Excel.

@@ -1,6 +1,7 @@
 ---
 title: "Gaussiana"
 ---
+# Gaussiana
 La gaussiana è una distribuzione di probabilità continua. È chiamata anche normale.
 
 Si indica con $X \sim \mathcal{N}(\mu, \sigma^2)$ in cui $\mu \in \mathbb{R}$ è la media e $\sigma > 0$ la [[momenti-distribuzioni|deviazione standard]].

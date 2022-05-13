@@ -1,6 +1,7 @@
 ---
 title: "Binomiale"
 ---
+# Binomiale
 La Binomiale è una distribuzione di probabilità discreta.
 
 Si indica con $X \sim \mathrm{bin}(n, p)$ in cui $n \in \mathbb{N}^+$ e $p \in [0,1]$, dove il parametro $n$ indica il numero di prove ripetute di un esperimento che ha probabilità $p$ di avere successo (o meno).

@@ -1,6 +1,7 @@
 ---
 title: "Geometrica"
 ---
+# Geometrica
 La Geometrica è una distribuzione di probabilità discreta.
 
 Si indica con $X \sim \mathrm{geom}(p)$ in cui $p \in (0,1]$ (se $p = 0$ allora sarebbe $X = \infty$), $p$ indica la probabilità della prima verifica di un evento.

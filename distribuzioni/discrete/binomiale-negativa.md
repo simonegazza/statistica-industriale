@@ -1,7 +1,8 @@
 ---
 title: "Binomiale negativa"
 ---
-La Binomiale è una distribuzione di probabilità discreta.
+# Binomiale negativa
+La Binomiale negativa è una distribuzione di probabilità discreta.
 È chiamata anche distribuzione di Pascal.
 
 Si indica con $X \sim \mathrm{negbin}(n, p)$ in cui $n \in \mathbb{N}^+$ e $p \in [0,1]$, dove il parametro $n$ indica il numero di prove ripetute di un esperimento che ha probabilità $p$ di avere successo (o meno).

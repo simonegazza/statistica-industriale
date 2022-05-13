@@ -1,6 +1,7 @@
 ---
 title: "Poisson-gamma"
 ---
+# Poisson-gamma
 La Poisson-gamma è una distribuzione di probabilità discreta. In particolare è ottenuta da una variabile aleatoria di distribuzione [[gamma]] $T \sim \mathrm{gamma}(\alpha, \lambda)$ (con $\alpha \ge 0$ e $\lambda \ge 0$) e poi da una variabile aleatoria $X \sim \mathrm{Pois}(T)$ di distribuzione [[poissoniana|Poisson]].
 
 Una possibile formalizzazione la indica con $X \sim \mathrm{PG}(\alpha, p)$.
