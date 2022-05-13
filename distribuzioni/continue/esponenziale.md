@@ -20,7 +20,7 @@ Ha l'**assenza di memoria**, per cui $P(T > a + b | T > a) = P(T > b)$, cioè la
 
 Modellizza molto bene i tempi di attesa per eventi improvvisi e imprevedibili (richieste ad un server, telefonate, rotture improvvise, decadimenti radioattivi, ecc...).
 
-Si può trovare anche tutte le volte che c'è un [[processo-bernoulli|processo di Bernoulli]] alla base, con intertempi $\mathrm{expo}(\lambda)$ indipendenti e identicamente distribuiti.
+Si può trovare anche tutte le volte che c'è un [[processo-poisson|processo di Poisson]] alla base, con intertempi $\mathrm{expo}(\lambda)$ indipendenti e identicamente distribuiti.
 
 Ha media $E(X) = \frac{1}{\lambda}$ e varianza $Var(X) = \frac{\log 2}{\lambda}$.
 
