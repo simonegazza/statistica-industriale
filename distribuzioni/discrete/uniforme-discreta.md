@@ -5,10 +5,12 @@ title: "Uniforme discreta"
 L'uniforme discreta è una distribuzione di probabilità discreta.
 Spesso modella bene dadi o monete.
 
-Non ha un vero e proprio simbolo con cui si indica (anche se talvolta si indica con $\mathcal{U}\{a, b\}$, da non confondersi con la [[uniforme]] che è continua e si indica con $\mathcal{U}(a, b)$).
+Si indica con $X \sim \mathrm{unif}\{a, b\}$ o $X \sim \mathcal{U}\{a, b\}$, ma non è da confondersi con la [[uniforme]] che è continua e si indica con $\mathcal{U}(a, b)$.
 
 La funzione di densità di probabilità è:
-$$P(X = i) = \frac{1}{n}$$
+$$
+P(X = i) = \frac{1}{n}
+$$
 con $i = 1, 2, \ldots, n$.
 
 Ha media $E(X) = \frac{n}{p}$ e varianza $Var(X) = n\frac{1-p}{p^2}$.
