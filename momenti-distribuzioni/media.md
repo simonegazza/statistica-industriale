@@ -1,7 +1,7 @@
 ---
 title: "Media"
 ---
-## Media
+# Media
 La media (o *valore atteso*) è il momento primo delle distribuzioni. Viene chiamato anche *valore atteso* perchè è il valore che ci aspettiamo la distribuzione ritorni *in media*. Talvolta viene chiamata anche *speranza matematica*. Rappresenta il *baricentro* della distribuzione: divide la distribuzione a metà (ma non la probabilità a metà perchè quella è la [indici-statistici#Mediana|mediana]]).
 
 Data quindi una distribuzione $f_X(x)$ con X [[variabili-aleatorie#Continue|v.a. continua]] (o definita su un insieme di valori infinitamente non-numerabile), la media si calcola come:

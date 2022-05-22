@@ -1,7 +1,7 @@
 ---
 title: "Varianza"
 ---
-## Varianza
+# Varianza
 È il momento centrato secondo, e quindi abbiamo che:
 $$
     Var(X) \coloneqq E(X - E(X)^2) = E(X^2) - E(X)^2
