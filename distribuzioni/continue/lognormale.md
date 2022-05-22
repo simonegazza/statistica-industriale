@@ -4,7 +4,7 @@ title: "Lognormale"
 # Lognormale
 La lognormale è una distribuzione di probabilità continua.
 
-Si indica con $X \sim \mathrm{lognormale}(\mu, \sigma^2)$ in cui $\mu \in \mathbb{R}$ è la media e $\sigma > 0$ la [[momenti-distribuzioni|deviazione standard]].
+Si indica con $X \sim \mathrm{lognormale}(\mu, \sigma^2)$ in cui $\mu \in \mathbb{R}$ è la media e $\sigma > 0$ la [[deviazione-standard|deviazione standard]].
 
 La classe delle gaussiane è chiusa per trasformazioni lineari, che vuol dire che se $X \sim \mathcal{N}(\mu, \sigma^2)$ allora $a + bX \sim \mathcal{N}(a + b\mu, b^2\sigma^2)$.
 
