@@ -11,6 +11,6 @@ $$
     \frac{W_1 / m}{W_2 / n} \sim \mathrm{F}(m; n)
 $$
 
-È usata per confrontare due [[momenti-distribuzione|varianze]] campionarie.
+È usata per confrontare due [[varianza|varianze]] campionarie.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/F-distribution_pdf.svg" alt="grafico della distribuzione" width=700 style="background: white">
