@@ -2,7 +2,7 @@
 title: "Deviazione standard"
 ---
 # Deviazione standard
-È la radice della [[varianza]], spesso si indica con $\sigma$ ed è definita come:
+Non è un vero e proprio [[momenti-distribuzioni|momento di una distribuzione]], ma è la radice della [[varianza]], spesso si indica con $\sigma$ ed è definita come:
 $$
 \sigma = \sqrt{Var(X)}
 $$
