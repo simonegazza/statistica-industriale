@@ -1,3 +1,6 @@
+---
+title: "Variabili aleatorie"
+---
 # Variabili aleatorie
 Sono dei generatori di numeri casuali, che spesso seguono una legge data. Chiedersi se P(X = 4) con X variabile aleatoria (talvolta abbreviato con v.a.) è chiedersi la probabilità che tale generatore di numeri casuali dia il valore 4.
 

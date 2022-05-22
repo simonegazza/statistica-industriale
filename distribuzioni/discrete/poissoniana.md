@@ -25,7 +25,7 @@ $$
 
 In termini più pratici, se $p << 1$ e $n >> 1$ allora $\mathrm{bin}(n, p) \dot\sim \mathrm{Pois}(np)$. Talvolta però se $p$ è sufficientemente piccolo, allora $n$ non serve tanto grande.
 
-È [[riproducibile]]: ovvero se $X_1, X_2, \ldots, X_m$ [[indipendenti]] e $X_i \sim \mathrm{Pois}(\nu_i)$ allora $X_1 + X_2 + \ldots + X_m \sim \mathrm{Pois}(\nu_1 + \nu_2 + \ldots + \nu_m)$.
+È [[riproducibile]]: ovvero se $X_1, X_2, \ldots, X_m$ [[indipendenza|indipendenti]] e $X_i \sim \mathrm{Pois}(\nu_i)$ allora $X_1 + X_2 + \ldots + X_m \sim \mathrm{Pois}(\nu_1 + \nu_2 + \ldots + \nu_m)$.
 
 Ha [[momenti/media]] $E(X) = \nu$ e [[momenti/varianza]] $Var(X) = \nu$.
 

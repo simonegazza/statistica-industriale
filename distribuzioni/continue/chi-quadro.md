@@ -10,7 +10,7 @@ In realtà è un caso speciale della [[gamma]] in cui $\alpha = \frac{k}{2}$ e $
 
 Si noti che se $Z$ è [[gaussiana|gaussiana standard]] (ovvero $Z \sim \mathcal{N}(0, 1)$) allora $Z^2 \sim \chi^2(1) \sim \gamma(\frac{1}{2}, \frac{1}{2})$.
 
-È possibile dare anche una definizione operativa della chi-quadro: se ho $Z_1, Z_2, \ldots, Z_k \sim \mathcal{N}(0, 1)$ [[gaussiana|gaussiane standard]] [[indipendenti|i.i.d]], allora $Z_1^2 + Z_2^2 + \ldots + Z_k^2 \sim \chi^2(k)$.
+È possibile dare anche una definizione operativa della chi-quadro: se ho $Z_1, Z_2, \ldots, Z_k \sim \mathcal{N}(0, 1)$ [[gaussiana|gaussiane standard]] [[indipendenza#Indipendenti e identicamente distribuite|i.i.d]], allora $Z_1^2 + Z_2^2 + \ldots + Z_k^2 \sim \chi^2(k)$.
 
 Ha [[momenti/media]] $E(X) = k$ e [[momenti/varianza]] $Var(X) = 2k$.
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Chi-square_distributionPDF.svg" alt="grafico della distribuzione" width=700 style="background: white">

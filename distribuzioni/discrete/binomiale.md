@@ -10,7 +10,7 @@ La [[variabili-aleatorie#Discrete|funzione di densità di probabilità]] è:
 $$P(X = k) = \binom{n}{k} p^k (1-p)^{n-k}$$
 per una binomiale di parametri $n$ e $p$ con $k = 1, \ldots, n$ risultati favorevoli.
 
-È [[riproducibile]]: ovvero se $X_1, X_2, \ldots, X_m$ [[indipendenti]] e $X_i \sim \mathrm{bin}(n_i, p)$ allora $X_1 + X_2 + \ldots + X_m \sim \mathrm{bin}(n_1 + n_2 + \ldots + n_m, p)$.
+È [[riproducibile]]: ovvero se $X_1, X_2, \ldots, X_m$ [[indipendenza|indipendenti]] e $X_i \sim \mathrm{bin}(n_i, p)$ allora $X_1 + X_2 + \ldots + X_m \sim \mathrm{bin}(n_1 + n_2 + \ldots + n_m, p)$.
 
 Ha [[momenti/media]] $E(X) = np$ e [[momenti/varianza]] $Var(X) = np(1-p)$.
 

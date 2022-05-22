@@ -13,7 +13,7 @@ $$
 
 Si noti che $\mathrm{t}(k) \xrightarrow[k \to +\infty]{} \mathcal{N}(0, 1)$
 
-È possibile dare anche una definizione operativa, seconda la quale se $Z \sim \mathcal{N}(0, 1)$ e $W \sim \chi^2(k)$ [[indipendenti]], allora:
+È possibile dare anche una definizione operativa, seconda la quale se $Z \sim \mathcal{N}(0, 1)$ e $W \sim \chi^2(k)$ [[indipendenza|indipendenti]], allora:
 $$
     Z \cdot \bigg(\frac{W}{k}\bigg)^{-\frac{1}{2}} \sim \mathrm{t}(k)
 $$

@@ -15,9 +15,9 @@ La classe delle gaussiane è chiusa per trasformazioni lineari, che vuol dire ch
 
 Si dice *standard* una gaussiana con $\mu = 0$ e $\sigma^2 = 1$, ovvero $X$ è gaussiana standard se $X \sim \mathcal{N}(0, 1)$.
 
-È la **regina** delle distribuzioni, infatti il [[teorema-limite-centrale|teorema del limite centrale]] pone proprio la **somma** di contributi [[indipendenti]] simile ad una gaussiana. Si noti che se fosse il prodotto di contributi [[indipendenti]], tratteremmo una [[lognormale]].
+È la **regina** delle distribuzioni, infatti il [[teorema-limite-centrale|teorema del limite centrale]] pone proprio la **somma** di contributi [[indipendenza|indipendenti]] simile ad una gaussiana. Si noti che se fosse il prodotto di contributi [[indipendenza|indipendenti]], tratteremmo una [[lognormale]].
 
-È [[riproducibile]], ma non solo, non necessita che le variabili siano [[indipendenti]]. Infatti la somma di gaussiane genera una gaussiana la cui [[momenti/media]] è la somma delle [[momenti/media|medie]] (mentre la [[momenti/varianza]] è più complicata).
+È [[riproducibile]], ma non solo, non necessita che le variabili siano [[indipendenza|indipendenti]]. Infatti la somma di gaussiane genera una gaussiana la cui [[momenti/media]] è la somma delle [[momenti/media|medie]] (mentre la [[momenti/varianza]] è più complicata).
 
 Ha [[momenti/media]] $E(X) = \mu$ e [[momenti/varianza]] $Var(X) = \sigma^2$.
 

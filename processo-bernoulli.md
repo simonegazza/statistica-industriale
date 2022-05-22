@@ -2,7 +2,7 @@
 title: "Processo di Bernoulli"
 ---
 # Processo di Bernoulli
-Il processo di Bernoulli è una successione di variabili aleatorie i.i.d (indipendenti identicamente distribuite) della forma $Y_1, Y_2, \ldots Y_n \sim \mathrm{bin}(1,p)$ dette _prove di Bernoulli_.
+Il processo di Bernoulli è una successione di variabili aleatorie [[indipendenza#Indipendenti e identicamente distribuite|i.i.d]] della forma $Y_1, Y_2, \ldots Y_n \sim \mathrm{bin}(1,p)$ dette _prove di Bernoulli_.
 
 È la controparte discreta del [[processo-poisson|processo di Poisson]].
 

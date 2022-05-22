@@ -12,7 +12,7 @@ Si tratta dell'esponenziale della gaussiana ed è *sempre positiva*. Il suo loga
 
 Si noti che cambiare la base del logaritmo è equivalente a fare una trasformazione lineare, infatti $\log_a X \iff \frac{\log_b X}{\log_b a} \sim \mathcal{N}\bigg(\frac{\mu}{\log_b a}, \big(\frac{\sigma}{\log_b a}\big)^2\bigg)$.
 
-Il [[teorema-limite-centrale|teorema del limite centrale]] pone il **prodotto** di contributi [[indipendenti]] simile ad una lognormale. Si noti che se fosse il la somma di contributi [[indipendenti]], tratteremmo una [[gaussiana]]. Esempi famosi sono redditi, patrimoni, ecc.
+Il [[teorema-limite-centrale|teorema del limite centrale]] pone il **prodotto** di contributi [[indipendenza|indipendenti]] simile ad una lognormale. Si noti che se fosse il la somma di contributi [[indipendenza|indipendenti]], tratteremmo una [[gaussiana]]. Esempi famosi sono redditi, patrimoni, ecc.
 
 È asimmetrica con coda a destra e assume spesso valori con diversi ordini di grandezza.
 

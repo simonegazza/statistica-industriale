@@ -11,7 +11,7 @@ La [[variabili-aleatorie#Discrete|funzione di densità di probabilità]] è:
 $$P(X = k) = \binom{k-1}{n-1} p^n (1-p)^{k-n}$$
 per una binomiale negativa di parametri $n$ e $p$ con $k \ge n$ risultati favorevoli. Si noti che ha $k$ e $n$ nelle posizioni opposte rispetto alla [[binomiale]].
 
-È [[riproducibile]]: ovvero se $X_1, X_2, \ldots, X_m$ [[indipendenti]] e $X_i \sim \mathrm{negbin}(n_i, p)$ allora $X_1 + X_2 + \ldots + X_m \sim \mathrm{negbin}(n_1 + n_2 + \ldots + n_m, p)$.
+È [[riproducibile]]: ovvero se $X_1, X_2, \ldots, X_m$ [[indipendenza|indipendenti]] e $X_i \sim \mathrm{negbin}(n_i, p)$ allora $X_1 + X_2 + \ldots + X_m \sim \mathrm{negbin}(n_1 + n_2 + \ldots + n_m, p)$.
 
 Ha [[momenti/media]] $E(X) = \frac{n}{p}$ e [[momenti/varianza]] $Var(X) = n\frac{1-p}{p^2}$.
 

@@ -14,7 +14,7 @@ con $0 < t < 1$.
 
 Generalizza l'[[uniforme]] quando $a = b = 1$, infatti $\mathrm{beta}(1, 1) \sim \mathrm{unif}(0, 1)$.
 
-Ha anche una definizione operativa: si prenda una lista $X_1, X_2, \ldots, X_{n+m}$ [[variabili-aleatorie#Continue|v.a.]] $\mathrm{unif}(0, 1)$ [[indipendenti|i.i.d]] e le si ordinino per valore, ottenendo le [[variabili-aleatorie#Continue|v.a.]] $U_1, U_2, \ldots, U_{n+m}$. La beta indica la [[distribuzione]] della (m+1)-esima più piccola o (n+1)-esima più grande tra le $m + n + 1$ [[variabili-aleatorie#Continue|v.a.]] $U_i$. Si noti però che questa definizione operativa prevede $m$ ed $n$ interi (cosa che è molto restrittiva).
+Ha anche una definizione operativa: si prenda una lista $X_1, X_2, \ldots, X_{n+m}$ [[variabili-aleatorie#Continue|v.a.]] $\mathrm{unif}(0, 1)$ [[indipendenza#Indipendenti e identicamente distribuite|i.i.d]] e le si ordinino per valore, ottenendo le [[variabili-aleatorie#Continue|v.a.]] $U_1, U_2, \ldots, U_{n+m}$. La beta indica la [[distribuzione]] della (m+1)-esima più piccola o (n+1)-esima più grande tra le $m + n + 1$ [[variabili-aleatorie#Continue|v.a.]] $U_i$. Si noti però che questa definizione operativa prevede $m$ ed $n$ interi (cosa che è molto restrittiva).
 
 Ha [[momenti/media]] $E(X) = \frac{a + b}{2}$ e [[momenti/varianza]] $Var(X) = \frac{(b - a)^2}{12}$.
 

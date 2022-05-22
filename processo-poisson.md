@@ -2,7 +2,7 @@
 title: "Processo di Poisson"
 ---
 # Processo di Poisson
-Supponiamo di avere una serie di eventi indipendenti $S_1, S_2, \ldots, S_n$ che si realizzano istantaneamente e che possono accadere continuamente nel tempo. Avremo una collezione di variabili aleatorie chiamata $N_t$ che rappresenta il numero di eventi occorsi dal tempo $0$ al tempo $t$. Tali eventi quindi avvengono con intertempi $T_1, T_2, \ldots T_n$ indipendenti e identicamente distribuiti.
+Supponiamo di avere una serie di eventi [[indipendenza|indipendenti]] $S_1, S_2, \ldots, S_n$ che si realizzano istantaneamente e che possono accadere continuamente nel tempo. Avremo una collezione di variabili aleatorie chiamata $N_t$ che rappresenta il numero di eventi occorsi dal tempo $0$ al tempo $t$. Tali eventi quindi avvengono con intertempi $T_1, T_2, \ldots T_n$ [[indipendenza#Indipendenti e identicamente distribuite|i.i.d]].
 
 Se cerchiamo di discretizzare il processo dividendo l'intervallo $[0, t]$ in un gran numero di sotto-intervalli di larghezza $\Delta = \frac{t}{n}$ allora otterremo una $N_t \sim \mathrm{bin}(n, p) \sim \mathrm{Pois}(np)$ [[binomiale]] che va come una [[poissoniana]] con $p$ fissato in modo tale che $x_i \coloneqq \frac{T_i}{\Delta} = T_i \cdot \frac{n}{t} \sim \mathrm{geom}(p)$ [[geometrica]]. Perciò avremo che $\frac{1}{p} = E(x_i) = \frac{1}{\lambda} \cdot \frac{n}{t} \iff \lambda t = np$.
 
