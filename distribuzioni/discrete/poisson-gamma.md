@@ -16,7 +16,7 @@ P(X = k) = \frac{\Gamma(\alpha + k)}{\Gamma(\alpha) k!} \bigg(\frac{\lambda}{\la
 $$
 per $k = 0, 1, 2, \ldots$.
 
-Ha [[media]] $E(X) = \alpha \frac{1-p}{p} = \frac{\alpha}{\lambda}$ e [[varianza]] $Var(X) = \alpha \frac{1-p}{p^2} = \frac{\alpha}{\lambda} + \frac{\alpha}{\lambda^2}$.
+Ha [[momenti/media]] $E(X) = \alpha \frac{1-p}{p} = \frac{\alpha}{\lambda}$ e [[momenti/varianza]] $Var(X) = \alpha \frac{1-p}{p^2} = \frac{\alpha}{\lambda} + \frac{\alpha}{\lambda^2}$.
 
 Generalizza la [[binomiale-negativa|binomiale negativa]] se $\alpha = n$ intero, allora $X + n \sim \mathrm{negbin}(n, p)$.
 

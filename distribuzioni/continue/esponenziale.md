@@ -22,6 +22,6 @@ Modellizza molto bene i tempi di attesa per eventi improvvisi e imprevedibili (r
 
 Si può trovare anche tutte le volte che c'è un [[processo-poisson|processo di Poisson]] alla base, con intertempi $\mathrm{expo}(\lambda)$ [[indipendenti|i.i.d]].
 
-Ha [[media]] $E(X) = \frac{1}{\lambda}$ e [[varianza]] $Var(X) = \frac{\log 2}{\lambda}$.
+Ha [[momenti/media]] $E(X) = \frac{1}{\lambda}$ e [[momenti/varianza]] $Var(X) = \frac{\log 2}{\lambda}$.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Exponential_pdf.svg" alt="grafico della distribuzione" width=700 style="background: white">

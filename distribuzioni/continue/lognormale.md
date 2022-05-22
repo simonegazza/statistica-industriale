@@ -4,7 +4,7 @@ title: "Lognormale"
 # Lognormale
 La lognormale è una [[distribuzione]] di [[probabilità]] [[variabili-aleatorie#Continue|continua]].
 
-Si indica con $X \sim \mathrm{lognormale}(\mu, \sigma^2)$ in cui $\mu \in \mathbb{R}$ è la [[media]] e $\sigma > 0$ la [[deviazione-standard|deviazione standard]].
+Si indica con $X \sim \mathrm{lognormale}(\mu, \sigma^2)$ in cui $\mu \in \mathbb{R}$ è la [[momenti/media]] e $\sigma > 0$ la [[deviazione-standard|deviazione standard]].
 
 La classe delle gaussiane è chiusa per trasformazioni lineari, che vuol dire che se $X \sim \mathcal{N}(\mu, \sigma^2)$ allora $a + bX \sim \mathcal{N}(a + b\mu, b^2\sigma^2)$.
 
@@ -18,7 +18,7 @@ Il [[teorema-limite-centrale|teorema del limite centrale]] pone il **prodotto** 
 
 Durante l'analisi dei dati, si fa il logaritmo della variabile e poi si tratta come dati [[gaussiana|normali]].
 
-Ha [[media]] $E(X) = e^{\mu + \frac{\sigma^2}{2}}$.
+Ha [[momenti/media]] $E(X) = e^{\mu + \frac{\sigma^2}{2}}$.
 La [[mediana]] è $e^\mu$.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Lognormal_distribution_PDF.png" alt="grafico della distribuzione" width=700 style="background: white">

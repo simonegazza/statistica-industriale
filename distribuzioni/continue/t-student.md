@@ -18,6 +18,6 @@ $$
     Z \cdot \bigg(\frac{W}{k}\bigg)^{-\frac{1}{2}} \sim \mathrm{t}(k)
 $$
 
-Ha [[media]] $E(X) = 0$ se $k > 1$ (non è definita altrimenti) e [[varianza]] $Var(X) = \frac{k}{k-2}$ se $k > 2$ (non è definita altrimenti).
+Ha [[momenti/media]] $E(X) = 0$ se $k > 1$ (non è definita altrimenti) e [[momenti/varianza]] $Var(X) = \frac{k}{k-2}$ se $k > 2$ (non è definita altrimenti).
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Student_t_pdf.svg" alt="grafico della distribuzione" width=700 style="background: white">
