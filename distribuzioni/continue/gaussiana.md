@@ -4,7 +4,7 @@ title: "Gaussiana"
 # Gaussiana
 La gaussiana è una [[distribuzione]] di [[probabilità]] [[variabili-aleatorie#Continue|continua]]. È chiamata anche normale.
 
-Si indica con $X \sim \mathcal{N}(\mu, \sigma^2)$ in cui $\mu \in \mathbb{R}$ è la [[momenti/media]] e $\sigma > 0$ la [[deviazione-standard|deviazione standard]].
+Si indica con $X \sim \mathcal{N}(\mu, \sigma^2)$ in cui $\mu \in \mathbb{R}$ è la [[media]] e $\sigma > 0$ la [[deviazione-standard|deviazione standard]].
 
 La [[variabili-aleatorie#Continue|funzione di densità di probabilità]] è:
 $$
@@ -17,9 +17,9 @@ Si dice *standard* una gaussiana con $\mu = 0$ e $\sigma^2 = 1$, ovvero $X$ è g
 
 È la **regina** delle distribuzioni, infatti il [[teorema-limite-centrale|teorema del limite centrale]] pone proprio la **somma** di contributi [[indipendenza|indipendenti]] simile ad una gaussiana. Si noti che se fosse il prodotto di contributi [[indipendenza|indipendenti]], tratteremmo una [[lognormale]].
 
-È [[riproducibile]], ma non solo, non necessita che le variabili siano [[indipendenza|indipendenti]]. Infatti la somma di gaussiane genera una gaussiana la cui [[momenti/media]] è la somma delle [[momenti/media|medie]] (mentre la [[momenti/varianza]] è più complicata).
+È [[riproducibile]], ma non solo, non necessita che le variabili siano [[indipendenza|indipendenti]]. Infatti la somma di gaussiane genera una gaussiana la cui [[media]] è la somma delle [[media|medie]] (mentre la [[varianza]] è più complicata).
 
-Ha [[momenti/media]] $E(X) = \mu$ e [[momenti/varianza]] $Var(X) = \sigma^2$.
+Ha [[media]] $E(X) = \mu$ e [[varianza]] $Var(X) = \sigma^2$.
 
 La [[variabili-aleatorie#Continue|CdF]] è $\Phi(t) = P(\mathcal{N}(0, 1) \le t)$ e quindi $\Phi(\frac{t - \mu}{\sigma}) = P(\mathcal{N}(\mu, \sigma^2) \le t)$.
 

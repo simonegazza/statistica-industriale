@@ -15,6 +15,6 @@ con $a < t < b$.
 
 È la classe delle continue è chiusa per trasformazioni lineari.
 
-Ha [[momenti/media]] $E(X) = \frac{a + b}{2}$ e [[momenti/varianza]] $Var(X) = \frac{(b - a)^2}{12}$.
+Ha [[media]] $E(X) = \frac{a + b}{2}$ e [[varianza]] $Var(X) = \frac{(b - a)^2}{12}$.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Uniform_distribution.svg" alt="grafico della distribuzione" width=700 style="background: white">

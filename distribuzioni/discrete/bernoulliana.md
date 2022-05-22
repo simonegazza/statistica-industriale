@@ -17,6 +17,6 @@ $$
 
 Si noti che il [[processo-bernoulli|processo di Bernoulli]] ci consente di trasformare $n$ ripetizioni della stessa Bernoulliana (avente la stessa probabilità $p$) in una [[binomiale]], sommando le ripetizioni.
 
-Ha [[momenti/media]] $E(X) = p$ e [[momenti/varianza]] $Var(X) = p(1-p)$.
+Ha [[media]] $E(X) = p$ e [[varianza]] $Var(X) = p(1-p)$.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Bernoulli_Distribution.PNG" alt="grafico della distribuzione" width=700>

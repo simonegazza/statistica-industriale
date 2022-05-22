@@ -13,6 +13,6 @@ per una binomiale negativa di parametri $n$ e $p$ con $k \ge n$ risultati favore
 
 È [[riproducibile]]: ovvero se $X_1, X_2, \ldots, X_m$ [[indipendenza|indipendenti]] e $X_i \sim \mathrm{negbin}(n_i, p)$ allora $X_1 + X_2 + \ldots + X_m \sim \mathrm{negbin}(n_1 + n_2 + \ldots + n_m, p)$.
 
-Ha [[momenti/media]] $E(X) = \frac{n}{p}$ e [[momenti/varianza]] $Var(X) = n\frac{1-p}{p^2}$.
+Ha [[media]] $E(X) = \frac{n}{p}$ e [[varianza]] $Var(X) = n\frac{1-p}{p^2}$.
 
 <img src="https://www.statisticshowto.com/wp-content/uploads/2015/04/negative-bimonial.png" alt="grafico della distribuzione" width=700>

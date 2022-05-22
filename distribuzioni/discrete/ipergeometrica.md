@@ -14,6 +14,6 @@ con $k \le \max(0, n - (m - a))$ e $X \le \min(a, n)$.
 
 Si noti che se modellassimo lo stesso processo **ma con rimessa** allora sarebbe una [[binomiale]] della forma $\mathrm{bin}(n, \frac{a}{m})$. Otteniamo sempre una [[binomiale]] anche nel caso in cui $m >> n$, infatti $\mathrm{hypg}(n, a, m) \dot \sim \mathrm{bin}(n, \frac{a}{m})$.
 
-Ha [[momenti/media]] $E(X) = \frac{na}{m}$ e una [[momenti/varianza]] $Var(X)$ che è poco meno di quella della [[binomiale]].
+Ha [[media]] $E(X) = \frac{na}{m}$ e una [[varianza]] $Var(X)$ che è poco meno di quella della [[binomiale]].
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/HypergeometricPDF.png" alt="grafico della distribuzione" width=700>

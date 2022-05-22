@@ -13,6 +13,6 @@ P(X = i) = \frac{1}{n}
 $$
 con $i = 1, 2, \ldots, n$.
 
-Ha [[momenti/media]] $E(X) = \frac{n}{p}$ e [[momenti/varianza]] $Var(X) = n\frac{1-p}{p^2}$.
+Ha [[media]] $E(X) = \frac{n}{p}$ e [[varianza]] $Var(X) = n\frac{1-p}{p^2}$.
 
 <img src="https://www.statisticshowto.com/wp-content/uploads/2015/04/negative-bimonial.png" alt="grafico della distribuzione" width=700>

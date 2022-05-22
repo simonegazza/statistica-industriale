@@ -19,6 +19,6 @@ Se $\alpha = n \ge 1$ **intero** allora si chiama anche [[erlang]].
 
 È [[riproducibile]] se $\lambda$ è fissato, infatti se $X \sim \mathrm{gamma}(\alpha_1, \lambda)$ e $Y \sim \mathrm{gamma}(\alpha_2, \lambda)$ allora $X + Y \sim \mathrm{gamma}(\alpha_1 + \alpha_2, \lambda)$.
 
-Ha [[momenti/media]] $E(X) = \frac{\alpha}{\beta}$ e [[momenti/varianza]] $Var(X) = \frac{\alpha}{\beta^2}$.
+Ha [[media]] $E(X) = \frac{\alpha}{\beta}$ e [[varianza]] $Var(X) = \frac{\alpha}{\beta^2}$.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Gamma_distribution_pdf.svg" alt="grafico della distribuzione" width=700 style="background: white">
