@@ -20,6 +20,11 @@ $$
 $$
 Si noti che tale funzione assume un grafico simile ad una funzione a gradini crescente.
 
+È possibile sommare due variabili aleatorie discrete facendone la *convoluzione* nel discreto, in particolare se $X, Y$ sono variabili aleatorie discrete allora
+$$
+\phi_{X+Y}(x) = (\phi_X * \phi_Y)(x) = \phi_X(x) * \phi_Y(y) = \\ \sum_{m = -\infty}^{+\infty}\phi_X(x - m)\phi_Y(m) = \sum_{m = -\infty}^{+\infty}\phi_Y(x - m)\phi_X(m)
+$$
+
 ### Continue
 Assumono valori continui e si descrivono tramite la *funzione di densità di probabilità* (**pdf**) spesso indicata come $f_X: \mathbb{R} \to [0, 1+\infty)$. Si noti che $P(X \in A) = \int_A f_X(t) dt$. Porre particolare **attenzione** quando viene richiesta la probabilità di un singolo punto, che dato che è l'integrale allora la si definisce come $0$.
 
@@ -32,6 +37,11 @@ $$
 e da qui segue che $f_X(t) = F_X'(t)$.
 Si noti inoltre che $P(a \le X \le b) = \int_a^b f_X(u) du = F_X(b) - F_X(a)$ e che $P(a \ge X) = 1 - P(X \le a) = F_X(a)$.
 Si noti infine che, per quanto detto prima, $P(X \le a) = P(X < a)$.
+
+È possibile sommare due variabili aleatorie continue facendone la *convoluzione* nel continuo, in particolare se $X, Y$ sono variabili aleatorie continue allora
+$$
+f_{X+Y}(x) = (f_X * f_Y)(x) = f_X(x) * f_Y(y) = \\ \int_{-\infty}^{+\infty}f_X(x - \alpha)f_Y(\alpha) d\alpha = \int_{-\infty}^{+\infty}f_Y(x - \alpha)f_X(\alpha) d\alpha
+$$
 
 # Osservazione
 Si noti che conoscere una qualunque fra $\phi_X, f_X o F_X$ è sufficiente per farci calcolare la probabilità di qualunque $X$, e quindi per conosere la legge e quindi la distribuzione di $X$.
@@ -56,3 +66,5 @@ Supponiamo di avere una distribuzione [[esponenziale]] $X \sim \mathrm{expo}(\la
 # Excel
 Quando si cerca di generare una v.a. in Excel si usa, nell'ultimo parametro della corrispondente funzione inversa, true o false a seconda che si voglia la *Cdf* o la *pmf*.
 Esempio: so che $X \sim \mathrm{gamma}(\alpha, \beta)$ e chiedo di trovare $x$ sapendo che $P(X < x) \ge 5\%$. Quindi $0.05 \le P(\mathrm{gamma}(\alpha, \beta) \le x) = F_X(x)$. Quindi per invertire posso applicare $F^{-1}_\mathrm{gamma}$ poichè (in generale) $F$ e $F^{-1}$ sono sempre crescenti. Quindi $F^{-1}_\mathrm{gamma}(0.05) \le F^{-1}_\mathrm{gamma}(F_X(x))$ quindi $x \ge F^{-1}_\mathrm{gamma}(0.05)$.
+
+# Somma di variabili aleatorie
