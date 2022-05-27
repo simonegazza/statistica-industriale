@@ -2,7 +2,7 @@
 title: "Chi-quadro"
 ---
 # Chi-quadro
-La chi-quadro è una [[distribuzione]] di [[probabilità]] [[variabili-aleatorie#Continue|continua]].
+La chi-quadro è una [[distribuzione]] di [[probabilita|probabilità]] [[variabili-aleatorie#Continue|continua]].
 
 Si indica con $X \sim \chi^2(k)$ in cui $k$ è il numero di gradi di libertà (g.d.l.).
 

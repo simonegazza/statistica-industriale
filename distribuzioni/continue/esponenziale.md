@@ -2,7 +2,7 @@
 title: "Esponenziale"
 ---
 # Esponenziale
-L'esponenziale è una [[distribuzione]] di [[probabilità]] [[variabili-aleatorie#Continue|continua]].
+L'esponenziale è una [[distribuzione]] di [[probabilita|probabilità]] [[variabili-aleatorie#Continue|continua]].
 
 Si indica con $X \sim \mathrm{expo}(\lambda)$ in cui $\lambda > 0$ è chiamato **rate** o tasso.
 
@@ -12,9 +12,9 @@ P(X \le t) = \lambda e^{-\lambda t}
 $$
 con $t > 0$.
 
-Rappresenta un tempo di attesa di un certo evento casuale che **ha la stessa [[probabilità]] di avvenire in ogni momento**.
+Rappresenta un tempo di attesa di un certo evento casuale che **ha la stessa [[probabilita|probabilità]] di avvenire in ogni momento**.
 
-Ha l'**assenza di memoria**, per cui $P(T > a + b | T > a) = P(T > b)$, cioè la [[probabilità]] di aspettare $a + b$ dopo aver già aspettato $a$ è uguale alla probabilità di aspettare direttamente $b$.
+Ha l'**assenza di memoria**, per cui $P(T > a + b | T > a) = P(T > b)$, cioè la [[probabilita|probabilità]] di aspettare $a + b$ dopo aver già aspettato $a$ è uguale alla probabilità di aspettare direttamente $b$.
 
 È la versione continua della [[geometrica]].
 

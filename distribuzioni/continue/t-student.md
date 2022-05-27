@@ -2,7 +2,7 @@
 title: "T di Student"
 ---
 # T di Student
-La T di Student è una [[distribuzione]] di [[probabilità]] [[variabili-aleatorie#Continue|continua]].
+La T di Student è una [[distribuzione]] di [[probabilita|probabilità]] [[variabili-aleatorie#Continue|continua]].
 
 Si indica con $X \sim \mathrm{t}(k)$ in cui $k \in \mathbb{N}^+$.
 

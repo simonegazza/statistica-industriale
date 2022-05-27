@@ -2,9 +2,9 @@
 title: "Binomiale"
 ---
 # Binomiale
-La Binomiale è una [[distribuzione]] di [[probabilità]] [[variabili-aleatorie#Discrete|discreta]].
+La Binomiale è una [[distribuzione]] di [[probabilita|probabilità]] [[variabili-aleatorie#Discrete|discreta]].
 
-Si indica con $X \sim \mathrm{bin}(n, p)$ in cui $n \in \mathbb{N}^+$ e $p \in [0,1]$, dove il parametro $n$ indica il numero di prove ripetute di un esperimento che ha [[probabilità]] $p$ di avere successo (o meno).
+Si indica con $X \sim \mathrm{bin}(n, p)$ in cui $n \in \mathbb{N}^+$ e $p \in [0,1]$, dove il parametro $n$ indica il numero di prove ripetute di un esperimento che ha [[probabilita|probabilità]] $p$ di avere successo (o meno).
 
 La [[variabili-aleatorie#Discrete|funzione di densità di probabilità]] è:
 $$P(X = k) = \binom{n}{k} p^k (1-p)^{n-k}$$

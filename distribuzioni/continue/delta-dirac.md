@@ -2,7 +2,7 @@
 title: "Delta di Dirac"
 ---
 # Delta di Dirac
-La delta di Dirac è una [[distribuzione]] di [[probabilità]] [[variabili-aleatorie#Continue|continua]].
+La delta di Dirac è una [[distribuzione]] di [[probabilita|probabilità]] [[variabili-aleatorie#Continue|continua]].
 
 Si indica con $X \sim \delta(a)$ con $a \in \mathbb{R}$.
 

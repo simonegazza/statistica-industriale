@@ -2,9 +2,9 @@
 title: "Geometrica"
 ---
 # Geometrica
-La Geometrica è una [[distribuzione]] di [[probabilità]] [[variabili-aleatorie#Discrete|discreta]].
+La Geometrica è una [[distribuzione]] di [[probabilita|probabilità]] [[variabili-aleatorie#Discrete|discreta]].
 
-Si indica con $X \sim \mathrm{geom}(p)$ in cui $p \in (0,1]$ (se $p = 0$ allora sarebbe $X = \infty$), $p$ indica la [[probabilità]] della prima verifica di un evento.
+Si indica con $X \sim \mathrm{geom}(p)$ in cui $p \in (0,1]$ (se $p = 0$ allora sarebbe $X = \infty$), $p$ indica la [[probabilita|probabilità]] della prima verifica di un evento.
 
 La [[variabili-aleatorie#Discrete|funzione di densità di probabilità]] è:
 $$

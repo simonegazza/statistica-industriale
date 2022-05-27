@@ -2,9 +2,9 @@
 title: "Bernoulliana"
 ---
 # Bernoulliana
-La Bernoulliana è una [[distribuzione]] di [[probabilità]] [[variabili-aleatorie|discrete]].
+La Bernoulliana è una [[distribuzione]] di [[probabilita|probabilità]] [[variabili-aleatorie|discrete]].
 
-Si indica con $X \sim \mathrm{bin}(1, p)$ in cui il parametro $p \in [0,1]$ indica la [[probabilità]] del verificarsi di un singolo [[evento]] (una sola volta).
+Si indica con $X \sim \mathrm{bin}(1, p)$ in cui il parametro $p \in [0,1]$ indica la [[probabilita|probabilità]] del verificarsi di un singolo [[evento]] (una sola volta).
 
 Questa [[distribuzione]] ha solo due valori possibili: $0$ o $1$. Se l'[[evento]] si verifica, la bernoulliana avrà valore $1$, se non si verifica avrà valore $0$. Quindi:
 $$

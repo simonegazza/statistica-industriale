@@ -2,7 +2,7 @@
 title: "Media"
 ---
 # Media
-La media (o *valore atteso*) è il [[momenti-distribuzioni|momento primo delle distribuzioni]]. Viene chiamato anche *valore atteso* perchè è il valore che ci aspettiamo la distribuzione ritorni *in media*. Talvolta viene chiamata anche *speranza matematica*. Rappresenta il *baricentro* della distribuzione: divide la distribuzione a metà (ma non la probabilità a metà perchè quella è la [indici-statistici#Mediana|mediana]]).
+La media (o *valore atteso*) è il [[momenti-distribuzioni|momento primo delle distribuzioni]]. Viene chiamato anche *valore atteso* perchè è il valore che ci aspettiamo la distribuzione ritorni *in media*. Talvolta viene chiamata anche *speranza matematica*. Rappresenta il *baricentro* della distribuzione: divide la distribuzione a metà (ma non la probabilità a metà perchè quella è la [[mediana]]).
 
 Data quindi una distribuzione $f_X(x)$ con X [[variabili-aleatorie#Continue|v.a. continua]] (o definita su un insieme di valori infinitamente non-numerabile), la media si calcola come:
 $$
@@ -25,7 +25,7 @@ Si noti che la media è un operatore che possiede la properietà di linearità, 
 Si noti che (dati X e Y delle [[variabili-aleatorie|v.a.]]):
 - se $X \ge 0$ allora $E(X) \ge 0$ (e questa proprietà può risultare comoda per verificare di aver fatto i conti correttamente)
 - se $X \ge Y$ allora $E(X) \ge E(Y)$
-- se X e Y sono [[indipendenti]] allora $E(X Y) = E(X) E(Y)$, altrimenti abbiamo $E(X Y) = E(X) E(Y) + Cov(X, Y)$ con $Cov(X, Y)$ la [[covarianza]] fra $X$ e $Y$
+- se X e Y sono [[indipendenza|indipendenti]] allora $E(X Y) = E(X) E(Y)$, altrimenti abbiamo $E(X Y) = E(X) E(Y) + Cov(X, Y)$ con $Cov(X, Y)$ la [[covarianza]] fra $X$ e $Y$
 - $E(X) = 0 \iff \forall X = 0 \in \mathrm{dom}(X)$, altrimenti $E(X) \not = 0$
 - $E(E(\ldots E(X) \ldots) = E(X)$
 - se $X$ è [[variabili-aleatorie#Continue|continua]] e $X \ge 0 \iff E(X) = \int_0^{+\infty} 1 - F_X(t) dt$ con $F$ [[variabili-aleatorie#Continue|Cdf]] di $X$
@@ -35,4 +35,4 @@ Si noti che (dati X e Y delle [[variabili-aleatorie|v.a.]]):
 
 Sia $Z = (X_1, X_2, \dots, X_n)$ un [[variabili-aleatorie#Vettori Aleatori|vettore aleatorio]] con pdf $f$ (o pmf $\phi$ nel caso discreto) e sia $h: \mathbb{R}^n \to R$ allora basta integrare lungo tutto il supporto (e quindi integrare su tutto $\mathbb{R}$ per $n$ volte) come mostrato sopra.
 
-Questo è l'indice di posizione più utilizzato (alle volte anche impropriamente, poichè spesso la [[indici-statistici#Mediana|mediana]] è più rappresentativa perchè appartenente alla distribuzione).
+Questo è l'indice di posizione più utilizzato (alle volte anche impropriamente, poichè spesso la [[mediana]] è più rappresentativa perchè appartenente alla distribuzione).

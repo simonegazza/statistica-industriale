@@ -2,7 +2,7 @@
 title: "Lognormale"
 ---
 # Lognormale
-La lognormale è una [[distribuzione]] di [[probabilità]] [[variabili-aleatorie#Continue|continua]].
+La lognormale è una [[distribuzione]] di [[probabilita|probabilità]] [[variabili-aleatorie#Continue|continua]].
 
 Si indica con $X \sim \mathrm{lognormale}(\mu, \sigma^2)$ in cui $\mu \in \mathbb{R}$ è la [[media]] e $\sigma > 0$ la [[deviazione-standard|deviazione standard]].
 

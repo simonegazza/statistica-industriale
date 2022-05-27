@@ -2,7 +2,7 @@
 title: "Uniforme discreta"
 ---
 # Uniforme discreta
-L'uniforme discreta è una [[distribuzione]] di [[probabilità]] [[variabili-aleatorie#Discrete|discreta]].
+L'uniforme discreta è una [[distribuzione]] di [[probabilita|probabilità]] [[variabili-aleatorie#Discrete|discreta]].
 Spesso modella bene dadi o monete.
 
 Si indica con $X \sim \mathrm{unif}\{a, b\}$ o $X \sim \mathcal{U}\{a, b\}$, ma non è da confondersi con la [[uniforme]] che è continua e si indica con $\mathcal{U}(a, b)$.

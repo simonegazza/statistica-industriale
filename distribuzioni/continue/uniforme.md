@@ -2,7 +2,7 @@
 title: "Uniforme"
 ---
 # Uniforme
-L'uniforme è una [[distribuzione]] di [[probabilità]] [[variabili-aleatorie#Continue|continua]].
+L'uniforme è una [[distribuzione]] di [[probabilita|probabilità]] [[variabili-aleatorie#Continue|continua]].
 
 Si indica con $X \sim \mathrm{unif}(a, b)$ o $X \sim \mathcal{U}(a, b)$ con $a, b \in \mathbb{R}$.
 È la corrispettiva continua dell'[[uniforme-discreta|uniforme discreta]].

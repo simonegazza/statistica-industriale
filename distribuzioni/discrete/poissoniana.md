@@ -2,7 +2,7 @@
 title: "Poissoniana"
 ---
 # Poissoniana
-La Poissoniana è una [[distribuzione]] di [[probabilità]] [[variabili-aleatorie#Discrete|discreta]].
+La Poissoniana è una [[distribuzione]] di [[probabilita|probabilità]] [[variabili-aleatorie#Discrete|discreta]].
 
 Si indica con $X \sim \mathrm{Pois}(\nu)$ in cui il parametro $\nu > 0$ indica la **frequenza [[media]]** del verificarsi di un certo evento. Si noti che $\nu$ può assumere un **qualsiasi valore sopra $0$**.
 

@@ -2,7 +2,7 @@
 title: "Beta"
 ---
 # Beta
-La beta è una [[distribuzione]] di [[probabilità]] [[variabili-aleatorie#Continue|continua]].
+La beta è una [[distribuzione]] di [[probabilita|probabilità]] [[variabili-aleatorie#Continue|continua]].
 
 Si indica con $X \sim \mathrm{beta}(\alpha, \beta)$ con $\alpha, \beta \in \mathbb{R}$ anche se generalmente sono interi.
 

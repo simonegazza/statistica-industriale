@@ -2,7 +2,7 @@
 title: "Indipendenza"
 ---
 # Indipendenza di variabili aleatorie
-Consideriamo due [[variabili-aleatorie|v.a.]] $X$ e $Y$. Diremo che sono indipendenti se il realizzarsi di $X$ non modifica in alcun modo (la [[probabilità]]) del realizzarsi di $Y$.
+Consideriamo due [[variabili-aleatorie|v.a.]] $X$ e $Y$. Diremo che sono indipendenti se il realizzarsi di $X$ non modifica in alcun modo (la [[probabilita|probabilità]]) del realizzarsi di $Y$.
 
 Ovvero quando la probabilità di $P(A|B) = P(A)$ e $P(B|A) = P(B)$.
 

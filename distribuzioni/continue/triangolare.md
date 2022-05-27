@@ -2,7 +2,7 @@
 title: "Triangolare"
 ---
 # Triangolare
-La triangolare è una [[distribuzione]] di [[probabilità]] [[variabili-aleatorie#Continue|continua]].
+La triangolare è una [[distribuzione]] di [[probabilita|probabilità]] [[variabili-aleatorie#Continue|continua]].
 
 Si indica con $X \sim \Tau(a, b, c)$, con $a$ e $b$ gli estremi (destro e sinistro rispettivamente) della distribuzione e $c$ la moda della distribuzione.
 
