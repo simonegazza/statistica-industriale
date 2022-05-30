@@ -2,13 +2,15 @@
 title: "Binomiale negativa"
 ---
 # Binomiale negativa
-La Binomiale negativa è una [[distribuzione]] di [[probabilita|probabilità]] [[variabili-aleatorie#Discrete|discrete]].
+La Binomiale negativa è una [[distribuzione]] di [[probabilita|probabilità]] [[variabili-aleatorie#Discrete|discreta]].
 È chiamata anche distribuzione di Pascal.
 
 Si indica con $X \sim \mathrm{negbin}(n, p)$ in cui $n \in \mathbb{N}^+$ e $p \in [0,1]$, dove il parametro $n$ indica il numero di prove ripetute di un esperimento che ha [[probabilita|probabilità]] $p$ di avere successo (o meno).
 
 La [[variabili-aleatorie#Discrete|funzione di densità di probabilità]] è:
-$$P(X = k) = \binom{k-1}{n-1} p^n (1-p)^{k-n}$$
+$$
+P(X = k) = \binom{k-1}{n-1} p^n (1-p)^{k-n}
+$$
 per una binomiale negativa di parametri $n$ e $p$ con $k \ge n$ risultati favorevoli. Si noti che ha $k$ e $n$ nelle posizioni opposte rispetto alla [[binomiale]].
 
 È [[riproducibile]]: ovvero se $X_1, X_2, \ldots, X_m$ [[indipendenza|indipendenti]] e $X_i \sim \mathrm{negbin}(n_i, p)$ allora $X_1 + X_2 + \ldots + X_m \sim \mathrm{negbin}(n_1 + n_2 + \ldots + n_m, p)$.
