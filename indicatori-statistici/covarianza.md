@@ -14,3 +14,4 @@ Ha le seguenti proprietà:
 - Tipicamente $Var(X + Y) = Var(X) + Var(Y) + Cov(X, Y)$ quando $X, Y$ non sono [[indipendenza|indipendenti]]
 - Tipicamente $E(X Y) = E(X) E(Y) + Cov(X, Y)$ quando $X, Y$ non sono [[indipendenza|indipendenti]]
 - $|Cov(X, Y)| \le \sqrt{Var(Y) Var(X)}$
+- $Cov(X, X) = Var(X)$ con $Var(X)$ la [[varianza]] di $X$
