@@ -4,7 +4,7 @@ title: "Skewness"
 # Skewness
 La skewness è il [[momenti-distribuzioni|momento terzo centrato]] ed è definito come:
 $$
-    sk(X) = \frac{E((X - E(X))^2)}{Var(X)^\frac{3}{2}}
+    sk(X) = \frac{E((X - E(X))^2)}{(Var(X))^\frac{3}{2}}
 $$
 
 Si noti che non è lineare e neanche quadratica, in particolare: $sk(aX + b) = sk(X)$.
