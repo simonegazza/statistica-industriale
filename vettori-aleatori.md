@@ -25,3 +25,13 @@ Si noti che $\Sigma$ è *semidefinita positiva*, ovvero $\forall v \in \mathbb{R
 
 ![Prova prova](https://miro.medium.com/max/1400/1*T7CqlFV5aRm6MxO5nJt7Qw.gif)
 *PCA - principal component analysis*
+
+# Trasformazioni lineari
+Sia $\bold{X}$ un vettore aleatorio di dimensione $n$, [[media]] $E(\bold{X}) \in \mathbb{R}^n$ e [[covarianza|matrice di covarianza]] $\Sigma = C(\bold{X}) \in M_{n \times n}$ e sia $N : \mathbb{R}^n \to \mathbb{R}^m$, con $N \in M_{m \times n}$ e vettore $a \in \mathbb{R}^m$. Allora avremo una trasformazione affine generica $Y = NX + a$. In tal caso avremo che $E(Y) = N\mu + a$ e $C(Y) = N \Sigma N^T$.
+
+Si noti inoltre che se:
+- $m = n$ e
+- $N$ è invertibile e
+- $X$ ha pdf $f_X : \mathbb{R}^n \to \mathbb{R}^+$,
+
+allora $Y$ ha una pdf $f_Y : \mathbb{R}^m \to \mathbb{R}$ con $f_Y = |det(N)|^{-1} f_X(N^{-1}y)$.
