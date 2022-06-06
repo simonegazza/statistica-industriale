@@ -63,8 +63,10 @@ Uso l'inverso della *Cdf* della distribuzione (ovvero $F^-1$) come legge e utili
 
 Supponiamo di avere una distribuzione [[esponenziale]] $X \sim \mathrm{expo}(\lambda)$ che quindi ha *Cdf* $F(t) = 1 - e^{-\lambda t}$ con $t > 0$. In Excel utilizzeremo la funzione $Gamma.inv(RAND(), 1, 1/\lambda)$ dove $RAND()$ corrisponde alla nostra [[uniforme]] descritta sopra.
 
+# Variabile Caratteristica
+Si tratta di un tipo speciale di variabile aleatoria che in realtà simboleggia l'avvenimento di un certo evento. La variabile varrà $1$ se l'evento avviene e $0$ se non avviene. Tipicamente, se la variabile aleatoria è $H$, allora avremo che $P(H) = 1 \cdot P(\bold{1}_H = 1) + 0 \cdot P(\bold{1}_H = 0)$.
+
 # Excel
 Quando si cerca di generare una v.a. in Excel si usa, nell'ultimo parametro della corrispondente funzione inversa, true o false a seconda che si voglia la *Cdf* o la *pmf*.
 Esempio: so che $X \sim \mathrm{gamma}(\alpha, \beta)$ e chiedo di trovare $x$ sapendo che $P(X < x) \ge 5\%$. Quindi $0.05 \le P(\mathrm{gamma}(\alpha, \beta) \le x) = F_X(x)$. Quindi per invertire posso applicare $F^{-1}_\mathrm{gamma}$ poichè (in generale) $F$ e $F^{-1}$ sono sempre crescenti. Quindi $F^{-1}_\mathrm{gamma}(0.05) \le F^{-1}_\mathrm{gamma}(F_X(x))$ quindi $x \ge F^{-1}_\mathrm{gamma}(0.05)$.
 
-# Somma di variabili aleatorie
