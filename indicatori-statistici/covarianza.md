@@ -15,3 +15,18 @@ Ha le seguenti proprietà:
 - Tipicamente $E(X Y) = E(X) E(Y) + Cov(X, Y)$ quando $X, Y$ non sono [[indipendenza|indipendenti]]
 - $|Cov(X, Y)| \le \sqrt{Var(Y) Var(X)}$
 - $Cov(X, X) = Var(X)$ con $Var(X)$ la [[varianza]] di $X$
+
+# Matrice di correlazione lineare di Pearson
+Si tratta di un particolare riscalamento di $C(X)$ tale che le componenti siano tutte confrontabili e abbiano tutte la stessa scala in un range $[-1, 1]$ (per via della disuguaglianza di Cahucy - Schwartz).
+
+Sfrutta il coefficiente di correlazione lineare che è definito come $\rho(X, Y) = \frac{Cov(X, Y)}{\sqrt{Var(X) Var(Y)}}$, infatti la matrice di correlazione di Pearson è il coefficiente di correlazione lineare fra tutte le variabili:
+$$
+\begin{pmatrix}
+\rho(X_1, X_1) & \rho(X_1, X_2) & \ldots & \rho(X_1, X_n) \\
+\rho(X_2, X_1) & \rho(X_2, X_2) & \ldots & \rho(X_2, X_n) \\
+\vdots      &             & \ddots & \vdots      \\
+\rho(X_n, X_1) & \rho(X_n, X_2) & \ldots & \rho(X_n, X_n) \\
+\end{pmatrix},
+$$
+
+Si noti che $\rho(X, Y)$ è invariante per trasformazione lineare delle componenti.
