@@ -64,7 +64,7 @@ Uso l'inverso della *Cdf* della distribuzione (ovvero $F^-1$) come legge e utili
 Supponiamo di avere una distribuzione [[esponenziale]] $X \sim \mathrm{expo}(\lambda)$ che quindi ha *Cdf* $F(t) = 1 - e^{-\lambda t}$ con $t > 0$. In Excel utilizzeremo la funzione $Gamma.inv(RAND(), 1, 1/\lambda)$ dove $RAND()$ corrisponde alla nostra [[uniforme]] descritta sopra.
 
 # Variabile Caratteristica
-Si tratta di un tipo speciale di variabile aleatoria che in realtà simboleggia l'avvenimento di un certo evento. La variabile varrà $1$ se l'evento avviene e $0$ se non avviene. Tipicamente, se la variabile aleatoria è $H$, allora avremo che $P(H) = 1 \cdot P(\bold{1}_H = 1) + 0 \cdot P(\bold{1}_H = 0)$.
+Si tratta di un tipo speciale di variabile aleatoria che in realtà simboleggia l'avvenimento di un certo evento. La variabile varrà $1$ se l'evento avviene e $0$ se non avviene. Tipicamente, se la variabile aleatoria è $H$, allora avremo che $P(H) = 1 \cdot P(\bold{1}_H = 1) + 0 \cdot P(\bold{1}_H = 0)$. È chiamata anche **variabile indicatrice**.
 
 # Excel
 Quando si cerca di generare una v.a. in Excel si usa, nell'ultimo parametro della corrispondente funzione inversa, true o false a seconda che si voglia la *Cdf* o la *pmf*.
