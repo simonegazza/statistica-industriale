@@ -12,7 +12,7 @@ Si noti che può essere non simmetrica in tutte le direzioni. In particolare la 
 
 Se la [[vettori-aleatori|matrice di covarianza]] è invertibile allora $\bold{Z}$ ha pdf (altrimenti avrei alcune direzioni in cui trovo una [[delta-dirac|delta di Dirac]]):
 $$
-    f_Z(x) = (2^\pi)^{-\frac{n}{2}} \cdot \sqrt{C(\bold{Z}^{-1})} \cdot e^{-\frac{1}{2}(x - \mu)^T \cdot C(\bold{Z})^{-1}(x - \mu)}
+    f_Z(x) = (2\pi)^{-\frac{n}{2}} \cdot \sqrt{C(\bold{Z}^{-1})} \cdot e^{-\frac{1}{2}(x - \mu)^T \cdot C(\bold{Z})^{-1}(x - \mu)}
 $$
 con $C(\bold{Z})$ la matrice di covarianza e $\mu = E(\bold{Z})$.
 
