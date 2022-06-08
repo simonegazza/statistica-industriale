@@ -30,12 +30,12 @@ Per verificare che un vettore sia effettivamente gaussiano possiamo:
 - se $N \in M_{n \times m}$ e $\bold{Z}$ è gaussiano di dimensione $n$ allora $N\bold{Z}$ è un vettore gaussiano di dimensione $m$
 
 # Generazione
-Supponiamo di voler generare un vettore gaussiano di legge assegnata $\mathcal{N}(\mu, \Sigma)$. L'unica possibilità è generare la versione di componenti indipendenti $Z \sim \mathcal{N}(?, ?)$ e poi costrure $X = N Z + a$ con $N$ e $a$ opportune. Questo è possibile farlo tramite l'[[analisi-componenti-principali|analisi delle componenti principali]].
+Supponiamo di voler generare un [[vettori-aleatori|vettore]] [[gaussiana|gaussiano]] di [[distribuzione|legge]] assegnata $\mathcal{N}(\mu, \Sigma)$. L'unica possibilità è generare la versione di componenti indipendenti $Z \sim \mathcal{N}(?, ?)$ e poi costrure $X = N Z + a$ con $N$ e $a$ opportune. Questo è possibile farlo tramite l'[[analisi-componenti-principali|analisi delle componenti principali]].
 
 Sia $V$ la matrice di autovettori di $\Sigma$ e $\lambda$ il vettore degli autovalori, e supponiamo che $X \sim \mathcal{N}(\mu, \Sigma)$. Allora sappiamo che $V^TX$ è:
-1) vettore gaussiano
+1) [[vettori-aleatori|vettore]] [[gaussiana|gaussiano]]
 2) $C(V^TX) = diag(\lambda)$
-3) $E(V^TX) =V^T\mu$
+3) $E(V^TX) = V^T\mu$
 4) quindi $V^TX \sim \mathcal{N}(V^T\mu, diag(\lambda))$
 
 Possiamo quindi usare $V^T(X-\mu) = V^TX - V^T\mu$, quindi per lo stesso ragionamento ho $Z \sim \mathcal{N}(0, diag(\lambda))$, allora parto dal generare $Z$ come appena descritto, poi $\forall i = 1, 2, \ldots, n$ genero $Z_i \sim \mathcal{N}(0, \lambda_i)$ e successivamente pongo $X \coloneqq VZ + \mu$
