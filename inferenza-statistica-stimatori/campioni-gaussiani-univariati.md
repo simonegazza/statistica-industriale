@@ -1,45 +1,16 @@
 ---
-title: "Casi di inferenza statistica più comuni"
+title: "Due campioni univariati"
 ---
-# Casi di inferenza statistica gaussiani più comuni
-## Un campione univariato
-Supponiamo di avere $X_1, \ldots, X_n$, $X_i \sim \mathcal{N}(\mu, \sigma^2)$
-
-### Media
-$\mathcal{N}(\mu, \frac{\sigma^2}{n}) \sim \bar X \approx \mu$. Si noti che $\bar X$ ha la [[varianza]] ridotta rispetto alle $X_i$. Tipicamente poi si [[gaussiana|standardizza]] come $\frac{\bar X - \mu}{\sigma} \sqrt{n} \sim \mathcal{N}(0, 1)$.
-
-Si noti che abbiamo diviso per $\frac{\sigma}{\sqrt{n}}$, perchè questa è la varianza di $\bar X$. Ricordiamo che $\bar X$ è lo stimatore della [[media]] perchè [[gaussiana|combinazione lineare di gaussiane]], e questo preserva la gaussianità.
-
-Questa può essere usata anche come [[funzione-ancillare|funzione ancillare]].
-
-### Varianza o deviazione standard
-$S_X^2 \approx \sigma^2$ e sappiamo che $\frac{S_x^2}{\sigma}(n-1) \sim \chi^2(n-1)$ dal [[teorema-cochran|teorema di Cochram]] e [[indipendenza|indipendente]] da $\bar X$ visto sopra.
-Anche questa può essere usata come [[funzione-ancillare|funzione ancillare]] per $\sigma$ o $\sigma^2$.
-
-Possiamo usare un'altra [[funzione-ancillare|funzione ancillare]] per $\sigma$ (è un caso raro ma può capitare): bisogna prima definire la deviazione standard [[statistica-componenti-fondamentali#Stimatore corretto|distorta]] $\tilde S_X = \sqrt{\frac{1}{n}\sum(X_i - \mu)^2}$ e otteniamo $\frac{\tilde S_X}{\sigma^2} n = \chi^2(n)$.
-
-### t di Student
-Possiamo sostituire a $\sigma$ il $S_X$ all'interno di $\frac{\bar X - \mu}{\sigma} \sqrt{n}$ e ottenere una [[t-student|t di Student]] $\frac{\bar X - \mu}{S_X} \sqrt{n} \sim t(n-1)$.
-
-Questo perchè al crescere di $n$ avremo che $S_X$ approssima sempre meglio $\sigma$. Infatti si noti che $\mathcal{N}(0, 1) \dot \sim t(\nu-1)$.
-
-Formalmente invece abbiamo che
-$$
-\frac{\bar X - \mu}{\sigma} \sqrt{n} \cdot \frac{\sigma}{S_X} = \frac{\bar X - \mu}{\sigma} \sqrt{n} \cdot \sqrt{\frac{n - 1}{\frac{S_X^2}{\sigma^2} (n-1)}} \stackrel{def.}{\sim} t(n-1)
-$$
-
-Questa in particolare è una [[funzione-ancillare|funzione ancillare]] per $\mu$.
-
-## Due campioni univariati
-Supponiamo di avere $X_1, \ldots, X_m$, $X_i \sim \mathcal{N}(\mu_X, \sigma_Y^2)$ e $Y_1, \ldots, Y_n$, $Y_i \sim \mathcal{N}(\mu_Y, \sigma_X^2)$ [[indipendenza#Indipendenti e identicamente distribuite|i.i.d.]]
+# Due campioni univariati
+Supponiamo di avere $X_1, \ldots, X_m$ con $X_i \sim \mathcal{N}(\mu_X, \sigma_Y^2)$ e $Y_1, \ldots, Y_n$ con $Y_i \sim \mathcal{N}(\mu_Y, \sigma_X^2)$ [[indipendenza#Indipendenti e identicamente distribuite|i.i.d.]]
 Avremo che $\bar X \approx \mu_X$, $\bar Y \approx \mu_Y$, $S_X^2 \approx \sigma^2_X$ e $S_Y^2 \approx \sigma^2_Y$
 
-Si noti che per ciascuno di questi [[statistica-componenti-fondamentali|campioni]] possiamo applicare le cose dette al capitolo precedente, ora però possiamo ragionare sul confronto fra le [[media|medie]] o [[varianza|varianze]] di queste.
+Si noti che per ciascuno di questi [[statistica-componenti-fondamentali|campioni]] possiamo applicare le cose dette nel caso di [[campione-gaussiano-univariato|una singola distribuzione univariata]], ora però possiamo ragionare sul confronto fra le [[media|medie]] o [[varianza|varianze]] di queste.
 
 Per confrontarle preferirò sottrarre (o farne il rapporto) e cercare di valutare il loro comportamento.
 
-### Confronto fra le medie
-Si noti che $\bar X \sim \mathcal{N}(\mu_X, \frac{\sigma_X^2}{m})$ e $\bar Y \sim \mathcal{N}(\mu_Y, \frac{\sigma_Y^2}{n})$ [[indipendenza|indipendenti]] e che $\bar X - \bar Y \approx \mu_X - \mu_y$.
+## Confronto fra le medie
+Si noti che $\bar X \sim \mathcal{N}(\mu_X, \frac{\sigma_X^2}{m})$ e $\bar Y \sim \mathcal{N}(\mu_Y, \frac{\sigma_Y^2}{n})$ [[indipendenza|indipendenti]] e che $\bar X - \bar Y \approx \mu_X - \mu_y$
 
 Da qui possiamo dire che $\bar X - \bar Y \sim \mathcal{N}(\mu_X - \mu_Y, \frac{\sigma_X^2}{m} + \frac{\sigma_Y^2}{n})$
 
@@ -49,7 +20,7 @@ $$
 $$
 tuttavia questo è un caso raro perchè richiede $\sigma_X$ e $\sigma_Y$ note.
 
-#### Caso speciale: [[varianza|omoschedastico]] $\sigma_X = \sigma_Y = \sigma$
+### Caso speciale: [[varianza|omoschedastico]] $\sigma_X = \sigma_Y = \sigma$
 Riprendendo la formula di prima e raccogliendo possiamo scrivere:
 $$
     \frac{\bar X - \bar Y - (\mu_X - \mu_Y)}{\sigma \sqrt{\frac{1}{m} + \frac{1}{n}}} \sim \mathcal{N}(0, 1)
@@ -88,20 +59,20 @@ $$
 
 Si noti in questi caso, avendo a disposizione due campioni [[varianza|omoschedastici]], possiamo usare lo [[statistica-componenti-fondamentali|stimatore]] pooled al posto dello [[statistica-componenti-fondamentali|stimatore]] semplice di $S_X$, così da ottenere una precisione maggiore. Otteniamo quindi $\frac{\bar X - \mu_X}{S_p}\sqrt{n} \sim t(m + n - 2)$. Si noti che i gradi di libertà della [[t-student|t di Student]] sono rimasti gli stessi (perchè si usa sempre il numero di gradi di libertà corrispondenti a quelli dello [[statistica-componenti-fondamentali|stimatore]] di $\sigma$ utilizzato) ma usiamo uno [[statistica-componenti-fondamentali|stimatore]] pooled.
 
-#### Caso non-omoschedastico $\sigma_X \not = \sigma_Y$
+### Caso non-omoschedastico $\sigma_X \not = \sigma_Y$
 Semplicemente come già visto
 $$
 \frac{\bar X - \bar Y - (\mu_X - \mu_Y)}{\sqrt{\frac{\sigma^2_X}{m} + \frac{\sigma^2_Y}{n}}} \sim \mathcal{N}(0, 1)
 $$
 
 #### Caso $m, n >>1$
-Nei casi grandi c'è poca differenza fra un [[gaussiana|gaussiana standard]] e una [[t-student|t di Student]], per cui scegliamo una delle due (e spesso sceglieremo la [[gaussiana|gaussiana standard]]), per cui possiamo dire che
+Nei casi il cui la numerosità dei dati è alta c'è poca differenza fra un [[gaussiana|gaussiana standard]] e una [[t-student|t di Student]], per cui scegliamo una delle due (e spesso sceglieremo la [[gaussiana|gaussiana standard]]), per cui possiamo dire che
 $$
 \frac{\bar X - \bar Y - (\mu_X - \mu_Y)}{\sqrt{\frac{S^2_X}{m} + \frac{S^2_Y}{n}}} \dot \sim \mathcal{N}(0, 1)
 $$
 Si noti che non va esattamente come una [[gaussiana|gaussiana standard]] ma approssimiamo la [[distribuzione]] in questo modo (perchè stiamo usando le [[varianza|varianze]] [[statistica-componenti-fondamentali|campionarie]] e non quelle esatte).
 
-### Confronto fra le varianze
+## Confronto fra le varianze
 Ricordiamo che $\bar X \sim \mathcal{N}(\mu_X, \frac{\sigma_X^2}{m})$ e $\bar Y \sim \mathcal{N}(\mu_Y, \frac{\sigma_Y^2}{n})$ [[indipendenza|indipendenti]].
 
 Siamo interessati al caso in cui $\sigma_X = \sigma_Y \implies \frac{\sigma_X}{\sigma_Y} = 1$.
