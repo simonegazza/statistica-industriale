@@ -69,4 +69,3 @@ Si tratta di un tipo speciale di variabile aleatoria che in realtà simboleggia 
 # Excel
 Quando si cerca di generare una v.a. in Excel si usa, nell'ultimo parametro della corrispondente funzione inversa, true o false a seconda che si voglia la *Cdf* o la *pmf*.
 Esempio: so che $X \sim \mathrm{gamma}(\alpha, \beta)$ e chiedo di trovare $x$ sapendo che $P(X < x) \ge 5\%$. Quindi $0.05 \le P(\mathrm{gamma}(\alpha, \beta) \le x) = F_X(x)$. Quindi per invertire posso applicare $F^{-1}_\mathrm{gamma}$ poichè (in generale) $F$ e $F^{-1}$ sono sempre crescenti. Quindi $F^{-1}_\mathrm{gamma}(0.05) \le F^{-1}_\mathrm{gamma}(F_X(x))$ quindi $x \ge F^{-1}_\mathrm{gamma}(0.05)$.
-
