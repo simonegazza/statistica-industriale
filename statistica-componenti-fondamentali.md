@@ -80,3 +80,11 @@ p_1 = \frac{x_1}{\alpha}, p_2 = \frac{x_2}{\alpha}, \ldots, p_k = \frac{x_k}{\al
 
 \text{ma so che } 1 = \sum_i p_i = \frac{1}{\alpha} \sum_i x_i \iff \\ \space \\ \alpha = \sum_i x_i \text{ quindi } \hat p_i =\frac{x_i}{\sum_i x_i} = \frac{x_i}{n}
 $$
+
+# Proprietà degli stimatori
+Supponiamo di avere uno parametro di una [[distribuzione]] $Z \coloneqq a + b X$ e $W \coloneqq c + dY$, le seguenti proprietà sono valide:
+- se $Z$ [[media]] allora il suo stimatore è  $\bar Z \coloneqq a + b \bar X$ è lineare.
+- se $Z$ [[varianza]] allora il suo stimatore è  $S_Z^2 = S_{ZZ} = b^2 S_X$ è quadratico.
+- se $Z$ [[deviazione-standard|deviazione standard]] allora il suo stimatore è  $S_Z = b S_X$
+- se $Z$ [[covarianza]] allora il suo stimatore è $S_{ZW} = bd S_{XY}$
+- se $Z$ [[covarianza#Matrice di correlazione lineare di Pearson|coefficiente di correlazione lineare]] allora il suo stimatore è  $r_{ZW} = r_{XY}$
