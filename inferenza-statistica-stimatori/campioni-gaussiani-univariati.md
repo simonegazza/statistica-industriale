@@ -57,7 +57,7 @@ $$
 $$
 [[funzione-ancillare|funzione ancillare]] per $\mu_X - \mu_Y$ nel caso [[varianza|omoschedastico]].
 
-Si noti in questi caso, avendo a disposizione due campioni [[varianza|omoschedastici]], possiamo usare lo [[statistica-componenti-fondamentali|stimatore]] pooled al posto dello [[statistica-componenti-fondamentali|stimatore]] semplice di $S_X$, così da ottenere una precisione maggiore. Otteniamo quindi $\frac{\bar X - \mu_X}{S_p}\sqrt{n} \sim t(m + n - 2)$. Si noti che i gradi di libertà della [[t-student|t di Student]] sono rimasti gli stessi (perchè si usa sempre il numero di gradi di libertà corrispondenti a quelli dello [[statistica-componenti-fondamentali|stimatore]] di $\sigma$ utilizzato) ma usiamo uno [[statistica-componenti-fondamentali|stimatore]] pooled.
+Si noti in questi caso, avendo a disposizione due campioni [[varianza|omoschedastici]], possiamo usare lo [[statistica-componenti-fondamentali|stimatore]] pooled al posto dello [[statistica-componenti-fondamentali|stimatore]] semplice di $S_X$, così da ottenere una precisione maggiore. Otteniamo quindi $\frac{\bar X - \mu_X}{S_p}\sqrt{m} \sim t(m + n - 2)$. Si noti che i gradi di libertà della [[t-student|t di Student]] sono rimasti gli stessi (perchè si usa sempre il numero di gradi di libertà corrispondenti a quelli dello [[statistica-componenti-fondamentali|stimatore]] di $\sigma$ utilizzato) ma usiamo uno [[statistica-componenti-fondamentali|stimatore]] pooled.
 
 ### Caso non-omoschedastico $\sigma_X \not = \sigma_Y$
 Semplicemente come già visto
