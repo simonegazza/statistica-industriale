@@ -26,14 +26,14 @@ Quindi la distanza è sostanzialmente la varianza campionaria (a meno di una cos
 # Teorema di Cochran
 $\bar X \sim \mathcal{N}(\mu, \frac{\sigma^2}{n})$ [[gaussiana]], $\frac{SS_X}{\sigma^2} \sim \chi^2(n-1)$ [[chi-quadro|chi quadro]] e fra loro [[indipendenza|indipendenti]].
 Intuitivamente: la direzione su cui giace la [[media]] è una [[gaussiana]]. Anche la proiezione su cui giace un punto osservato è una [[gaussiana]].
-Entrambi gli [[statistica-componenti-fondamentali|stimatori]] sopra elencati sono [[statistica-componenti-fondamentali#Stimatore corretto|corretti]] e [[statistica-componenti-fondamentali#Stimatore consistente|consistenti]]. Si noti che $E(S_X) < E(S_X^2) = \sigma^2$ e quindi $E(S_X) < \sigma$, quindi $S_X$ stima per difetto $\sigma$.
+Entrambi gli [[componenti-fondamentali-statistica|stimatori]] sopra elencati sono [[componenti-fondamentali-statistica#Stimatore corretto|corretti]] e [[componenti-fondamentali-statistica#Stimatore consistente|consistenti]]. Si noti che $E(S_X) < E(S_X^2) = \sigma^2$ e quindi $E(S_X) < \sigma$, quindi $S_X$ stima per difetto $\sigma$.
 Intuitivamente il teorema di Cochram dice che se prendi una [[gaussiana]] sferica e la giri sugli assi, questa rimane sferica. Ci sono diversi enunciati, uno di questi è il seguente.
 
 ## Formalmente (soprattutto per applicazioni pratiche)
 Supponiamo di avere $X_1, X_2, \ldots, X_n \sim \mathcal{N}(\mu_i, \sigma)$ [[gaussiana|gaussiane]] [[indipendenza|indipendenti]] con $\sigma$ comune a tutte le [[variabili-aleatorie|vv.aa.]] (quindi i dati sono detti essere **omoschedastici**). Supponiamo di sapere che $\mu = (\mu_1, \mu_2, \ldots, \mu_n) \in V \subseteq \mathbb{R}^n$ con $k = \dim(V)$
 Allora:
-1) il [[statistica-componenti-fondamentali#Stimatori di massima verosimiglianza|MLE]] di $\mu$ è ortogonale a $\pi_V(X)$, quindi $\mu \perp \pi_V(X)$
-2) $\pi_V(X)$ è [[statistica-componenti-fondamentali#Stimatore corretto|corretto]]
+1) il [[componenti-fondamentali-statistica#Stimatori di massima verosimiglianza|MLE]] di $\mu$ è ortogonale a $\pi_V(X)$, quindi $\mu \perp \pi_V(X)$
+2) $\pi_V(X)$ è [[componenti-fondamentali-statistica#Stimatore corretto|corretto]]
 3) $W \coloneqq \| X - \pi_V(X) \|^2$ è [[indipendenza|indipendente]] da $\pi_V(X)$ e $\frac{W}{\sigma^2} \sim \chi^2(n-k)$ [[chi-quadro|chi quadro]].
 
 ## Dimostrazione
@@ -64,7 +64,7 @@ $$
 $$
 
 ### Dimostrazione di 2
-Ora dobbiamo dimostrare che $\pi_V(X)$ è [[statistica-componenti-fondamentali#Stimatore corretto|corretto]].
+Ora dobbiamo dimostrare che $\pi_V(X)$ è [[componenti-fondamentali-statistica#Stimatore corretto|corretto]].
 $$
 E(\pi_V(X)) = E\Bigg(\sum_{i = 1}^k (v_i \cdot X) v_i\Bigg) \stackrel{lin.}{=} \\
 \sum_{i = 1}^k (v_i \cdot E(X)) v_i = \sum_{i = 1}^k (v_i \cdot \mu) v_i \stackrel{def.}{=} \\ \space \\

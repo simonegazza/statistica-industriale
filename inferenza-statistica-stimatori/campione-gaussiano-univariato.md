@@ -18,7 +18,7 @@ Questa può essere usata anche come [[funzione-ancillare|funzione ancillare]].
 $S_X^2 \approx \sigma^2$ e sappiamo che $\frac{S_x^2}{\sigma}(n-1) \sim \chi^2(n-1)$ dal [[teorema-cochran|teorema di Cochram]] e [[indipendenza|indipendente]] da $\bar X$ visto sopra.
 Anche questa può essere usata come [[funzione-ancillare|funzione ancillare]] per $\sigma$ o $\sigma^2$.
 
-Possiamo usare un'altra [[funzione-ancillare|funzione ancillare]] per $\sigma$ (è un caso raro ma può capitare): bisogna prima definire la deviazione standard [[statistica-componenti-fondamentali#Stimatore corretto|distorta]] $\tilde S_X = \sqrt{\frac{1}{n}\sum(X_i - \mu)^2}$ e otteniamo
+Possiamo usare un'altra [[funzione-ancillare|funzione ancillare]] per $\sigma$ (è un caso raro ma può capitare): bisogna prima definire la deviazione standard [[componenti-fondamentali-statistica#Stimatore corretto|distorta]] $\tilde S_X = \sqrt{\frac{1}{n}\sum(X_i - \mu)^2}$ e otteniamo
 $$
 \frac{\tilde S_X}{\sigma^2} n \sim \chi^2(n)
 $$
