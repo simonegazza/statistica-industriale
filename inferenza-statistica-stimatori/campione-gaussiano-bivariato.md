@@ -11,7 +11,7 @@ $$
 \gamma     & \sigma_Y^2 \\
 \end{pmatrix}\bigg)
 $$
-Si noti che indicheremo con $\gamma$ è la [[covarianza]].
+Si noti che indicheremo con $\gamma$ la [[covarianza]].
 
 Dati di questo tipo possono essere, ad esempio, statura e peso di un insieme di persone.
 

@@ -2,7 +2,7 @@
 title: "Due campioni univariati"
 ---
 # Due campioni univariati
-Supponiamo di avere $X_1, \ldots, X_m$ con $X_i \sim \mathcal{N}(\mu_X, \sigma_Y^2)$ e $Y_1, \ldots, Y_n$ con $Y_i \sim \mathcal{N}(\mu_Y, \sigma_X^2)$ [[indipendenza#Indipendenti e identicamente distribuite|i.i.d.]]
+Supponiamo di avere $X_1, \ldots, X_m$ con $X_i \sim \mathcal{N}(\mu_X, \sigma_X^2)$ e $Y_1, \ldots, Y_n$ con $Y_i \sim \mathcal{N}(\mu_Y, \sigma_Y^2)$ [[indipendenza#Indipendenti e identicamente distribuite|i.i.d.]]
 Avremo che $\bar X \approx \mu_X$, $\bar Y \approx \mu_Y$, $S_X^2 \approx \sigma^2_X$ e $S_Y^2 \approx \sigma^2_Y$
 
 Si noti che per ciascuno di questi [[componenti-fondamentali-statistica|campioni]] possiamo applicare le cose dette nel caso di [[campione-gaussiano-univariato|una singola distribuzione univariata]], ora però possiamo ragionare sul confronto fra le [[media|medie]] o [[varianza|varianze]] di queste.
@@ -10,7 +10,7 @@ Si noti che per ciascuno di questi [[componenti-fondamentali-statistica|campioni
 Per confrontarle preferirò sottrarre (o farne il rapporto) e cercare di valutare il loro comportamento.
 
 ## Confronto fra le medie
-Si noti che $\bar X \sim \mathcal{N}(\mu_X, \frac{\sigma_X^2}{m})$ e $\bar Y \sim \mathcal{N}(\mu_Y, \frac{\sigma_Y^2}{n})$ [[indipendenza|indipendenti]] e che $\bar X - \bar Y \approx \mu_X - \mu_y$
+Si noti che $\bar X \sim \mathcal{N}(\mu_X, \frac{\sigma_X^2}{m})$ e $\bar Y \sim \mathcal{N}(\mu_Y, \frac{\sigma_Y^2}{n})$ [[indipendenza|indipendenti]] e che $\bar X - \bar Y \approx \mu_X - \mu_Y$
 
 Da qui possiamo dire che $\bar X - \bar Y \sim \mathcal{N}(\mu_X - \mu_Y, \frac{\sigma_X^2}{m} + \frac{\sigma_Y^2}{n})$
 
@@ -30,7 +30,7 @@ Ora posso anche sostiuire a $\sigma^2$ uno [[componenti-fondamentali-statistica|
 
 Una semplice media aritmetica però non è corretta perchè la precisione di questi stimatori dipende dalla [[componenti-fondamentali-statistica|numerosità]] dei rispettivi [[componenti-fondamentali-statistica|campioni]].
 
-Utilizzerò una media pesata della forma $S_p \coloneqq \theta_X S_X + \theta_Y S_Y$ con $\theta_X + \theta_Y = 1$ (e questo rimane [[componenti-fondamentali-statistica#Stimatore corretto|corretto]] e [[componenti-fondamentali-statistica#Stimatore consistente|consistente]] perchè è una combinazione lineare di [[componenti-fondamentali-statistica|stimatori]] [[componenti-fondamentali-statistica#Stimatore corretto|corretto]] e [[componenti-fondamentali-statistica#Stimatore consistente|consistente]]).
+Utilizzerò una media pesata della forma $S_p \coloneqq \theta_X S_X + \theta_Y S_Y$ con $\theta_X + \theta_Y = 1$ (e questo rimane [[componenti-fondamentali-statistica#Stimatore corretto|corretto]] e [[componenti-fondamentali-statistica#Stimatore consistente|consistente]] perchè è una combinazione lineare di [[componenti-fondamentali-statistica|stimatori]] [[componenti-fondamentali-statistica#Stimatore corretto|corretti]] e [[componenti-fondamentali-statistica#Stimatore consistente|consistenti]]).
 
 Ora si tratta di assegnare il peso corretto a ciascuno dei due [[componenti-fondamentali-statistica|stimatori]]. Dato che comunque il risultato sarà uno stimatore [[componenti-fondamentali-statistica#Stimatore corretto|corretto]] e [[componenti-fondamentali-statistica#Stimatore consistente|consistente]], vorrei prendere quello che ha varianza minore fra tutti quelli disponibili. Per farlo prendo $\theta_X \propto m - 1$ e $\theta_X \propto n - 1$ che si rivela essere:
 $$

@@ -18,9 +18,9 @@ Questa può essere usata anche come [[funzione-ancillare|funzione ancillare]].
 $S_X^2 \approx \sigma^2$ e sappiamo che $\frac{S_x^2}{\sigma}(n-1) \sim \chi^2(n-1)$ dal [[teorema-cochran|teorema di Cochram]] e [[indipendenza|indipendente]] da $\bar X$ visto sopra.
 Anche questa può essere usata come [[funzione-ancillare|funzione ancillare]] per $\sigma$ o $\sigma^2$.
 
-Possiamo usare un'altra [[funzione-ancillare|funzione ancillare]] per $\sigma$ (è un caso raro ma può capitare): bisogna prima definire la deviazione standard [[componenti-fondamentali-statistica#Stimatore corretto|distorta]] $\tilde S_X = \sqrt{\frac{1}{n}\sum(X_i - \mu)^2}$ e otteniamo
+Possiamo usare un'altra [[funzione-ancillare|funzione ancillare]] per $\sigma$ (è un caso raro ma può capitare): bisogna prima definire la deviazione standard [[componenti-fondamentali-statistica#Stimatore corretto|distorta]] $\tilde S_X = \sqrt{\frac{1}{n}\sum_{i = 1}^n(X_i - \mu)^2}$ e otteniamo
 $$
-\frac{\tilde S_X}{\sigma^2} n \sim \chi^2(n)
+\frac{\tilde S_X^2}{\sigma^2} n \sim \chi^2(n)
 $$
 
 ## t di Student
@@ -31,9 +31,10 @@ $$
 
 Questa in particolare è una [[funzione-ancillare|funzione ancillare]] per $\mu$.
 
-Questo perchè al crescere di $n$ avremo che $S_X$ approssima sempre meglio $\sigma$. Infatti si noti che $\mathcal{N}(0, 1) \dot \sim t(\nu-1)$.
+Questo perchè al crescere di $n$ avremo che $S_X$ approssima sempre meglio $\sigma$. Infatti si noti che $\mathcal{N}(0, 1) \dot \sim t(n-1)$.
 
-La dimostrazione formale avviene perchè
+La dimostrazione formale avviene perchè se $Z \coloneqq \frac{\bar X - \mu}{\sigma} \sqrt{n}, T \coloneqq \frac{\bar X - \mu}{S_X} \sqrt{n}$ e $W \coloneqq \frac{S_X^2}{\sigma^2}(n - 1)$ allora
 $$
-\frac{\bar X - \mu}{\sigma} \sqrt{n} \cdot \frac{\sigma}{S_X} = \frac{\bar X - \mu}{\sigma} \sqrt{n} \cdot \sqrt{\frac{n - 1}{\frac{S_X^2}{\sigma^2} (n-1)}} \stackrel{def.}{\sim} t(n-1)
+T = Z \cdot \frac{\sigma}{S_X} = Z \cdot \sqrt{\frac{n-1}{W}}
 $$
+che è la definizione di un $t(n - 1)$ [[t-student|t di Student]] con $(n - 1)$ gradi di libertà
