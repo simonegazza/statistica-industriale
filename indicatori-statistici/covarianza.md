@@ -29,4 +29,6 @@ $$
 \end{pmatrix},
 $$
 
-Si noti che $\rho(X, Y)$ è invariante per trasformazione lineare delle componenti. Talvolta si segna anche come $r_{XY}$. Si noti che si chiama così perchè ha valore $1$ (o $-1$) quando la correlazione fra le variabili è **esattamente** lineare positiva (negativa). Si noti che, però, un valore più piccolo (grande) di $1$ ($-1$) non indica dipendenza lineare ma comunque indica una dipendenza.
+Si noti che $\rho(X, Y)$ è invariante per trasformazione lineare delle componenti.
+
+Quando trattiamo il coefficiente di correlazione lineare [[componenti-fondamentali-statistica|campionario]] si segna come $r_{XY}$. Si noti che si chiama così perchè ha valore $1$ (o $-1$) quando la correlazione fra le variabili è **esattamente** lineare positiva (negativa). Si noti che, però, un valore più piccolo (grande) di $1$ ($-1$) non indica dipendenza lineare ma comunque indica una dipendenza.
