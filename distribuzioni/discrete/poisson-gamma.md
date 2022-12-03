@@ -8,7 +8,7 @@ In particolare è ottenuta da una [[variabili-aleatorie|variabile aleatoria]] di
 
 Una possibile formalizzazione la indica con $X \sim \mathrm{PG}(\alpha, p)$.
 
-Per realizzarsi, si noti che deve verificarsi che $E(X) \le Var(X)$.
+Per realizzarsi, si noti che deve verificarsi che $E(X) \le Var(X)$. Si noti che $p = \frac{E(X)}{Var(X)}$ e $\alpha = \frac{p}{1-p}E(X)$.
 
 La [[variabili-aleatorie#Discrete|funzione di densità di probabilità]] è:
 $$
