@@ -19,21 +19,21 @@ $$
 \text{La devianza campionaria (o \textit{sum of squares}): } SS_X \coloneqq \sum_{i = 1}^n (X_i - \bar X)^2 = \sum_i X_i^2 - n \bar X^2 \\
 $$
 
-Si noti che su un grafico avremo che il centro della distribuzione (e quindi la [[media]]) sta su una retta, e la distribuzione stessa è una sfera (se vista dall'alto). Ora la realizzazione di un punto $X$, genera un vettore $\pi_v(X) = (\bar X, \bar X, \ldots, \bar X)$. Il vettore della proiezione è $X - \pi_x(v) = (X_1 - \bar X, X_2 - \bar X, \ldots, X_n - \bar X)$, quindi per il teorema di Pitagora avrà che $\| X - \pi_x(v) \| = (X_1 + \bar X)^2 + (X_2 - \bar X)^2 +  \ldots + (X_n - \bar X)^2 = SS_X$.
+Si noti che su un grafico avremo che il centro della [[distribuzione]] (e quindi la [[media]]) sta su una retta, e la [[distribuzione]] stessa è una sfera (se vista dall'alto). Ora la realizzazione di un punto $X$, genera un vettore $\pi_v(X) = (\bar X, \bar X, \ldots, \bar X)$. Il vettore della proiezione è $X - \pi_x(v) = (X_1 - \bar X, X_2 - \bar X, \ldots, X_n - \bar X)$, quindi per il teorema di Pitagora avrà che $\| X - \pi_x(v) \| = (X_1 + \bar X)^2 + (X_2 - \bar X)^2 +  \ldots + (X_n - \bar X)^2 = SS_X$.
 
 Quindi la distanza è sostanzialmente la varianza campionaria (a meno di una costante) e la proiezione che è la media aritmetica.
 
 # Teorema di Cochran
 $\bar X \sim \mathcal{N}(\mu, \frac{\sigma^2}{n})$ [[gaussiana]], $\frac{SS_X}{\sigma^2} \sim \chi^2(n-1)$ [[chi-quadro|chi quadro]] e fra loro [[indipendenza|indipendenti]].
 Intuitivamente: la direzione su cui giace la [[media]] è una [[gaussiana]]. Anche la proiezione su cui giace un punto osservato è una [[gaussiana]].
-Entrambi gli [[componenti-fondamentali-statistica|stimatori]] sopra elencati sono [[componenti-fondamentali-statistica#Stimatore corretto|corretti]] e [[componenti-fondamentali-statistica#Stimatore consistente|consistenti]]. Si noti che $E(S_X) < E(S_X^2) = \sigma^2$ e quindi $E(S_X) < \sigma$, quindi $S_X$ stima per difetto $\sigma$.
+Entrambi gli [[inferenza-statistica|stimatori]] sopra elencati sono [[inferenza-statistica#Stimatore corretto|corretti]] e [[inferenza-statistica#Stimatore consistente|consistenti]]. Si noti che $E(S_X) < E(S_X^2) = \sigma^2$ e quindi $E(S_X) < \sigma$, quindi $S_X$ stima per difetto $\sigma$.
 Intuitivamente il teorema di Cochram dice che se prendi una [[gaussiana]] sferica e la giri sugli assi, questa rimane sferica. Ci sono diversi enunciati, uno di questi è il seguente.
 
 ## Formalmente (soprattutto per applicazioni pratiche)
 Supponiamo di avere $X_1, X_2, \ldots, X_n \sim \mathcal{N}(\mu_i, \sigma)$ [[gaussiana|gaussiane]] [[indipendenza|indipendenti]] con $\sigma$ comune a tutte le [[variabili-aleatorie|vv.aa.]] (quindi i dati sono detti essere **omoschedastici**). Supponiamo di sapere che $\mu = (\mu_1, \mu_2, \ldots, \mu_n) \in V \subseteq \mathbb{R}^n$ con $k = \dim(V)$
 Allora:
-1) il [[componenti-fondamentali-statistica#Stimatori di massima verosimiglianza|MLE]] di $\mu$ è ortogonale a $\pi_V(X)$, quindi $\mu \perp \pi_V(X)$
-2) $\pi_V(X)$ è [[componenti-fondamentali-statistica#Stimatore corretto|corretto]]
+1) il [[inferenza-statistica#Stimatori di massima verosimiglianza|MLE]] di $\mu$ è ortogonale a $\pi_V(X)$, quindi $\mu \perp \pi_V(X)$
+2) $\pi_V(X)$ è [[inferenza-statistica#Stimatore corretto|corretto]]
 3) $W \coloneqq \| X - \pi_V(X) \|^2$ è [[indipendenza|indipendente]] da $\pi_V(X)$ e $\frac{W}{\sigma^2} \sim \chi^2(n-k)$ [[chi-quadro|chi quadro]].
 
 ## Dimostrazione
@@ -64,7 +64,7 @@ $$
 $$
 
 ### Dimostrazione di 2
-Ora dobbiamo dimostrare che $\pi_V(X)$ è [[componenti-fondamentali-statistica#Stimatore corretto|corretto]].
+Ora dobbiamo dimostrare che $\pi_V(X)$ è [[inferenza-statistica#Stimatore corretto|corretto]].
 $$
 E(\pi_V(X)) = E\Bigg(\sum_{i = 1}^k (v_i \cdot X) v_i\Bigg) \stackrel{lin.}{=} \\
 \sum_{i = 1}^k (v_i \cdot E(X)) v_i = \sum_{i = 1}^k (v_i \cdot \mu) v_i \stackrel{def.}{=} \\ \space \\

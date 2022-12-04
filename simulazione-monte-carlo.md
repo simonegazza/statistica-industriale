@@ -4,7 +4,7 @@ title: "Simulazione Monte Carlo"
 # Simulazione Monte Carlo
 A volte ci sono probabilità o valori attesi che interessano ma che non sappiamo calcolare con la combinatoria. La simulazione Monte Carlo è un metodo che ci consente di calcolare proprio questo.
 
-Un esempio comodo potrebbe essere il $\alpha^*$ di un test se non ne esiste la funzione ancillare.
+Un esempio comodo potrebbe essere il $\alpha^*$ di un [[test-statistico|test]] se non ne esiste la funzione ancillare.
 
 Per via della [[legge-grandi-numeri|LGN]] sappiamo che la [[media]] campionaria andrà ad approssimare la [[media]] vera.
 
