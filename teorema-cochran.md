@@ -58,7 +58,7 @@ Ora bisogna massimizzarlo, però si tratta di un esponenziale con segno meno, qu
 $$
 \hat \mu = \argmax_{\mu \in V} L(\mu) = \argmin_{\mu \in V} \| x-\mu \|^2
 $$
-Quindi lo stimatore di $\mu$ detto $\hat \mu$ deve essere quello che minimizza la distanza. Dato che minimizza la distanza stiamo parlando della proiezione ortogonale. Da qui si ricava che:
+Quindi lo [[inferenza-statistica|stimatore]] di $\mu$ detto $\hat \mu$ deve essere quello che minimizza la distanza. Dato che minimizza la distanza stiamo parlando della proiezione ortogonale. Da qui si ricava che:
 $$
 \hat \mu =\pi_V(x) \quad \square.
 $$
