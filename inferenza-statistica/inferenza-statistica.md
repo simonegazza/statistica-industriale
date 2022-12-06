@@ -1,7 +1,7 @@
 ---
-title: "Componenti alla base della statistica"
+title: "Componenti alla base della statistica inferenziale"
 ---
-# Componenti alla base della statistica
+# Componenti alla base della statistica inferenziale
 Supponiamo di avere un insieme di dati $x_1, x_2, \ldots, x_2$ che chiameremo **campione dei dati** che può rappresentare ad esempio un gruppo di persone.
 Si spera che il campione di dati raccolto sia una qualche realizzazione di una serie di [[variabili-aleatorie|vv.aa.]] $X_1, X_2, \ldots, X_n$.
 
@@ -32,7 +32,7 @@ $$
 **Altrimenti** tale stimatore si dice **distorto** e ha un erorre sistematico (detto **bias**, in inglese) di valore $E(\Theta) - \theta$.
 
 ## Stimatori di massima verosimiglianza
-Esiste un metodo per trovare stimatori che siano consistenti (non necessariamente corretti però). Tipicamente si indicano come stimatori di massima likelihood (quindi Maximum Likelihood Estimator, MLE).
+Esiste un metodo per trovare stimatori che siano consistenti (non necessariamente corretti però). Tipicamente si indicano come stimatori di massima likelihood (quindi *Maximum Likelihood Estimator*, MLE).
 
 Si tratta di osservare i dati e cercare di capire quale sia il valore del parametro $\theta$ che li rende più verosimili (o probabili).
 

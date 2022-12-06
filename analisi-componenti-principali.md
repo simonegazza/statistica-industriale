@@ -36,4 +36,4 @@ Si noti che le componenti di $Y$ si chiamano **componenti principali** di $X$.
 
 Per i motivi sopra elencati, dato un qualunque [[vettori-aleatori|vettore aleatorio]] $X$ esiste una rotazione di $\mathbb{R}^n$ detta $N \in M_{n \times n}$ tale che il vettore ruotato $Y = NX$ ha $C(Y)$ diagonale. Nel riferimento ruotato quindi,il vettore originario ha le varie componenti scorrelate fra di loro (ovvero [[covarianza]] zero).
 
-<img src="https://i2.wp.com/dataaspirant.com/wp-content/uploads/2021/01/9-Principal-Component-Analysis-With-Dimensions.png?ssl=1" alt="grafico della distribuzione" width=700>
+<img src="https://i2.wp.com/dataaspirant.com/wp-content/uploads/2021/01/9-Principal-Component-Analysis-With-Dimensions.png?ssl=1" alt="analisi delle componenti principali" width=700>
