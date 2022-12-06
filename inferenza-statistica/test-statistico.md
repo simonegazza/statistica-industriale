@@ -57,7 +57,7 @@ Tipicamente, una volta ottenute la statistica del test e la $\mathrm{RA}_T$ poss
 Serve per valutare le performarnce di un test, ed è definita come $h(\Theta) = P(\text{dire } H_0 | \Theta) = P(T \in \mathrm{RA}_T | \Theta): \mathbb{R} \to [0, 1]$, ovvero la probabilità che il test dica $H_0$ al variare di $\Theta$. Per plottare questa curva, basta utilizzare la statistica del test $T$ e farla variare in base ad un $\Theta$ e calcolarne la probabilità (come se si dovesse fare il plot di una funzione $y(x)$ al variare di $x$). 
 
 Nei casi bilaterali la forma di $h$ è a campana (ma non è simile ad una gaussiana, è più schiacciata verso l'alto); inoltre ci sarà un solo punto nel grafico in cui $\Theta = \Theta_0$. Il punto $(\Theta_0, h(\Theta_0))$ è il punto massimo della curva e nel quale possiamo vedere che $1 - h(\Theta_0) = \alpha$ è l'errore di prima specie. Si  noti che in tutti gli altri punti che non sono $\Theta_0$ sappiamo essere vera $H_1$, quindi in ciasuno di quei punti sotto la curva possiamo commettere un errore di seconda specie $\beta$. In questo caso solo $\beta$ è una funzione, $\alpha$ no.
-<img src="attachments/h_theta_curve.svg" alt="grafico di h bilaterale" width=700>
+<img src="../attachments/h_theta_curve.svg" alt="grafico di h bilaterale" width=700>
 
 Nei testi unilaterali ha questa forma (dove in questo caso abbiamo posto $H_0: \Theta \le \Theta_0$, altrimenti se fosse in contrario avremmo la curva specchiata):
 <img src="https://www.researchgate.net/profile/Xiao-Yang-Li-2/publication/282664010/figure/fig2/AS:614103164932126@1523425012798/Operating-characteristic-OC-curve-when-AF-is-unknown.png" alt="grafico di h unilaterale" width=700>
