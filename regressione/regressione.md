@@ -185,6 +185,19 @@ $$
 $$
 Alternativamente è possibile dividere gli $X_{i, j}$ e gli $Y_i$ in questo modo: $\tilde X_{i, j} \coloneqq \frac{X_{i, j}}{r_i}$ e $\tilde X_i \coloneqq \frac{Y_i}{r_i}$ e si ottiene $SS_R = \sum_{i = 0}^n \frac{1}{r_i^2} \bigg( Y_i - \sum_{j = 0}^p x_{i,j} B_j \bigg)^2$
 
+## Regressione logistica
+Supponiamo di avere un campione del tipo
+$$
+Y_i \sim \mathrm{bin} (1, \sigma(\sum_{j = 0}^p \beta_j x_{i,j})) \qquad \text{con }\sigma(x) = (1 + e^{-x})^{-1}
+$$
+<img src="https://www.saedsayad.com/images/LogReg_1.png" width=700>
+
+In questo caso notiamo che $P(X = k) = \sigma(z_i)^k (1 - \sigma(z_i))^k$, per cui la regressione in questo caso, invece di $SS_R$ minimizza
+$$
+-l(\beta) \coloneqq log \prod_{i = 1}^n P(Y_i = y_i) = \sum_{i = 1}^n \Big[ y_i \log\sigma(z_i) + (1 - y_i) \log(1- \sigma(z_i) \Big] 
+$$
+
+
 ## Test di regressione
 Test utilizzato per verificare che la $Y$ dipenda davvero da $x_i$.
 Verificare che la $Y$ dipenda dalla $x_i$ equivale a chiedersi se il corrispettivo $\beta_i = 0$. Da qui nascono le ipotesi di questo test:
