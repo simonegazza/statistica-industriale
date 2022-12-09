@@ -1,7 +1,7 @@
 ---
 title: "Campioni esponenziali"
 ---
-# Un campione [[esponenziale]]
+# Un [[inferenza-statistica|campione]] [[esponenziale]]
 Supponiamo di avere $T_1, \ldots, T_n \sim \mathrm{expo}(\lambda)$ [[indipendenza#Indipendenti e identicamente distribuite|i.i.d.]] con $\lambda > 0$.
 Lo [[inferenza-statistica|stimatore]] per $\lambda \approx \frac{1}{\bar T}$ (oppure $\nu = E(T_i) \coloneqq \frac{1}{\lambda} = \bar T$)
 

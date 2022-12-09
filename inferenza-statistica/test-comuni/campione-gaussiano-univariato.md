@@ -1,7 +1,7 @@
 ---
 title: "Un campione gaussiano univariato"
 ---
-# Un campione gaussiano univariato
+# Un [[inferenza-statistica|campione]] gaussiano univariato
 Supponiamo di avere $X_1, \ldots, X_n$ con $X_i \sim \mathcal{N}(\mu, \sigma^2)$
 
 ## Inferenza sulla media

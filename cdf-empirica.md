@@ -9,7 +9,7 @@ Per farlo bisogna:
 - "ribaltare" il grafico lungo $y = x$ in modo da ottenere la [[variabili-aleatorie#Continue|CdF]] empirica
 
 ## Formalmente
-Supponiamo di avere un campione $x_1, x_2, \ldots x_n$ proveniente da una distribuzione con [[variabili-aleatorie#Continue|CdF]] $F$. Ordino il campione come $x_{(1)}, x_{(2)}, \ldots x_{(n)}$. Allora posso stimare la [[variabili-aleatorie#Continue|CdF]] $F$ come
+Supponiamo di avere un [[inferenza-statistica|campione]] $x_1, x_2, \ldots x_n$ proveniente da una distribuzione con [[variabili-aleatorie#Continue|CdF]] $F$. Ordino il [[inferenza-statistica|campione]] come $x_{(1)}, x_{(2)}, \ldots x_{(n)}$. Allora posso stimare la [[variabili-aleatorie#Continue|CdF]] $F$ come
 $$
 F(t) \coloneqq P(X \le t) \approx \frac{\#\{x_i : x_i \le t\}}{n} =: \hat F(t)
 $$

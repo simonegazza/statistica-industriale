@@ -1,7 +1,7 @@
 ---
 title: "Un campione gaussiano bivariato"
 ---
-# Un campione gaussiano bivariato
+# Un [[inferenza-statistica|campione]] gaussiano bivariato
 Questa casistica assomiglia molto a quella dei [[due-campioni-gaussiani-univariati|due campioni univariati]], tuttavia in questo caso la numerosità è la stessa ($n = m$) e i dati sono accoppiati (a formare [[vettori-aleatori|vettori aleatori]]).
 Per cui avremo $(X_1, Y_1), \ldots, (X_n, Y_n)$ con
 $$

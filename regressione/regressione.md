@@ -27,7 +27,7 @@ Riusciremo attraverso questo framework non solo a capire la legge che lega $\bol
 Cominceremo da un esempio semplice, quello della *regressione lineare semplice*, andando poi progressivamente a riproporre i concetti alzando in complicatezza e dimensione progressivamente.
 
 ## Regressione lineare semplice
-Supponiamo di avere un campione bivariato costituito dai punti $(x_1, y_1), (x_2, y_2), \ldots, (x_n, y_n) \in \mathbb{R}^2$, avremo che
+Supponiamo di avere un [[campione-gaussiano-bivariato|campione bivariato]] costituito dai punti $(x_1, y_1), (x_2, y_2), \ldots, (x_n, y_n) \in \mathbb{R}^2$, avremo che
 $$
 Y = \beta_0 + \beta_1 x + e
 $$
@@ -186,7 +186,7 @@ $$
 Alternativamente è possibile dividere gli $X_{i, j}$ e gli $Y_i$ in questo modo: $\tilde X_{i, j} \coloneqq \frac{X_{i, j}}{r_i}$ e $\tilde X_i \coloneqq \frac{Y_i}{r_i}$ e si ottiene $SS_R = \sum_{i = 0}^n \frac{1}{r_i^2} \bigg( Y_i - \sum_{j = 0}^p x_{i,j} B_j \bigg)^2$
 
 ## Regressione logistica
-Supponiamo di avere un campione del tipo
+Supponiamo di avere un [[inferenza-statistica|campione]] del tipo
 $$
 Y_i \sim \mathrm{bin} (1, \sigma(\sum_{j = 0}^p \beta_j x_{i,j})) \qquad \text{con }\sigma(x) = (1 + e^{-x})^{-1}
 $$
@@ -210,7 +210,7 @@ Come abbiamo visto prima, lo [[inferenza-statistica|stimatore]] e la [[funzione-
 
 Se il [[test-statistico|test]] dice $H_0$ (e quindi $T \in \mathrm{RA}_T = [-q, q]$ con $q = F^{-1}_{t(n-2)}(1 - \frac{\bar \alpha}{2})$ e $F^{-1}_{t(n-2)}$ la [[variabili-aleatorie#Continue|funzione di ripartizione]] inversa della [[t-student|t di student]] con $n - 2$ gradi di libertà) allora possiamo provare ad ignorare $x_i$ e riprovare a fare la regressione senza.
 
-Nota: nel caso $n = 2$, se il test dice $H_0$, allora posso trattare le $Y_i$ come un normalissimo campione [[gaussiana|gaussiano]] $Y_i \sim \mathcal{N}(\mu, \sigma^2)$.
+Nota: nel caso $n = 2$, se il test dice $H_0$, allora posso trattare le $Y_i$ come un normalissimo [[campione-gaussiano-univariato|campione univariato]] $Y_i \sim \mathcal{N}(\mu, \sigma^2)$.
 
 ### Caso della regressione lineare multipla
 $$
