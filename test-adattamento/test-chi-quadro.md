@@ -1,7 +1,7 @@
 ---
 title: "Test del chi quadro"
 ---
-# [[Test-statistico|test]] del [[chi-quadro|chi quadro]]
+# [[Test-statistico|Test]] del [[chi-quadro|chi quadro]]
 È un gruppo di [[test-statistico|test]] di adattamento (ovvero che verificano se un dato [[inferenza-statistica|campione]] appartiene ad una data [[distribuzione]]).
 
 ## Te[[test-statistico|Test]]st del [[chi-quadro|chi quadro]] elementare
